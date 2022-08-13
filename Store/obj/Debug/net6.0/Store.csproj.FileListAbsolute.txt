@@ -1,0 +1,1093 @@
+D:\Projects\Store\Store\bin\Debug\net6.0\appsettings.Development.json
+D:\Projects\Store\Store\bin\Debug\net6.0\appsettings.json
+D:\Projects\Store\Store\bin\Debug\net6.0\Store.exe
+D:\Projects\Store\Store\bin\Debug\net6.0\Store.deps.json
+D:\Projects\Store\Store\bin\Debug\net6.0\Store.runtimeconfig.json
+D:\Projects\Store\Store\bin\Debug\net6.0\Store.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Store.pdb
+D:\Projects\Store\Store\bin\Debug\net6.0\Humanizer.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.csproj.AssemblyReference.cache
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.AssemblyInfoInputs.cache
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.AssemblyInfo.cs
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.csproj.CoreCompileInputs.cache
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\Store\Store\obj\Debug\net6.0\staticwebassets.build.json
+D:\Projects\Store\Store\obj\Debug\net6.0\staticwebassets.development.json
+D:\Projects\Store\Store\obj\Debug\net6.0\scopedcss\bundle\Store.styles.css
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.csproj.CopyComplete
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.dll
+D:\Projects\Store\Store\obj\Debug\net6.0\refint\Store.dll
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.pdb
+D:\Projects\Store\Store\obj\Debug\net6.0\Store.genruntimeconfig.cache
+D:\Projects\Store\Store\obj\Debug\net6.0\ref\Store.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Castle.Core.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\MessagePack.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.Common.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\appsettings.Development.json
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\appsettings.json
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Store.exe
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Store.deps.json
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Store.runtimeconfig.json
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Store.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Store.pdb
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Castle.Core.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Humanizer.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\MessagePack.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\MessagePack.Annotations.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.OpenApi.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.Common.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.Configuration.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.Frameworks.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.LibraryModel.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.Packaging.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.ProjectModel.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.Protocol.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\NuGet.Versioning.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Composition.Convention.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Composition.Hosting.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Composition.Runtime.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Composition.TypedParts.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Drawing.Common.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Runtime.Caching.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Security.Permissions.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\System.Windows.Extensions.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.csproj.AssemblyReference.cache
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.AssemblyInfoInputs.cache
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.AssemblyInfo.cs
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.csproj.CoreCompileInputs.cache
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cs
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cache
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\staticwebassets.build.json
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\staticwebassets.development.json
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\scopedcss\bundle\Store.styles.css
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.csproj.CopyComplete
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\refint\Store.dll
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.pdb
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\Store.genruntimeconfig.cache
+T:\_CODE___\iti\auth api\Day3\testingidentity\Store\Store\obj\Debug\net6.0\ref\Store.dll
+F:\program files\Store\Store\bin\Debug\net6.0\appsettings.Development.json
+F:\program files\Store\Store\bin\Debug\net6.0\appsettings.json
+F:\program files\Store\Store\bin\Debug\net6.0\efpt.config.json
+F:\program files\Store\Store\bin\Debug\net6.0\Store.exe
+F:\program files\Store\Store\bin\Debug\net6.0\Store.deps.json
+F:\program files\Store\Store\bin\Debug\net6.0\Store.runtimeconfig.json
+F:\program files\Store\Store\bin\Debug\net6.0\Store.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Store.pdb
+F:\program files\Store\Store\bin\Debug\net6.0\Castle.Core.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Humanizer.dll
+F:\program files\Store\Store\bin\Debug\net6.0\MessagePack.dll
+F:\program files\Store\Store\bin\Debug\net6.0\MessagePack.Annotations.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.OpenApi.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+F:\program files\Store\Store\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.Common.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.Configuration.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.Frameworks.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.LibraryModel.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.Packaging.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.ProjectModel.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.Protocol.dll
+F:\program files\Store\Store\bin\Debug\net6.0\NuGet.Versioning.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\program files\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Composition.Convention.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Composition.Hosting.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Composition.Runtime.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Composition.TypedParts.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Drawing.Common.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Runtime.Caching.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Security.Permissions.dll
+F:\program files\Store\Store\bin\Debug\net6.0\System.Windows.Extensions.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+F:\program files\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+F:\program files\Store\Store\obj\Debug\net6.0\Store.csproj.AssemblyReference.cache
+F:\program files\Store\Store\obj\Debug\net6.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+F:\program files\Store\Store\obj\Debug\net6.0\Store.AssemblyInfoInputs.cache
+F:\program files\Store\Store\obj\Debug\net6.0\Store.AssemblyInfo.cs
+F:\program files\Store\Store\obj\Debug\net6.0\Store.csproj.CoreCompileInputs.cache
+F:\program files\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cs
+F:\program files\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cache
+F:\program files\Store\Store\obj\Debug\net6.0\staticwebassets.build.json
+F:\program files\Store\Store\obj\Debug\net6.0\staticwebassets.development.json
+F:\program files\Store\Store\obj\Debug\net6.0\scopedcss\bundle\Store.styles.css
+F:\program files\Store\Store\obj\Debug\net6.0\Store.csproj.CopyComplete
+F:\program files\Store\Store\obj\Debug\net6.0\Store.dll
+F:\program files\Store\Store\obj\Debug\net6.0\refint\Store.dll
+F:\program files\Store\Store\obj\Debug\net6.0\Store.pdb
+F:\program files\Store\Store\obj\Debug\net6.0\Store.genruntimeconfig.cache
+F:\program files\Store\Store\obj\Debug\net6.0\ref\Store.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\appsettings.Development.json
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\appsettings.json
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\efpt.config.json
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Store.exe
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Store.deps.json
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Store.runtimeconfig.json
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Store.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Store.pdb
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Castle.Core.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Humanizer.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\MessagePack.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\MessagePack.Annotations.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Build.Locator.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Features.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.OpenApi.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.Common.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.Configuration.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.Frameworks.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.LibraryModel.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.Packaging.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.ProjectModel.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.Protocol.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\NuGet.Versioning.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Composition.Convention.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Composition.Hosting.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Composition.Runtime.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Composition.TypedParts.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Drawing.Common.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Runtime.Caching.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Security.Permissions.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\System.Windows.Extensions.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Features.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.csproj.AssemblyReference.cache
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.AssemblyInfoInputs.cache
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.AssemblyInfo.cs
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.csproj.CoreCompileInputs.cache
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cs
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.MvcApplicationPartsAssemblyInfo.cache
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\staticwebassets.build.json
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\staticwebassets.development.json
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\scopedcss\bundle\Store.styles.css
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.csproj.CopyComplete
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.dll
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\refint\Store.dll
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.pdb
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.genruntimeconfig.cache
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\ref\Store.dll
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\4d3f731c-72f1-4029-9685-463f2e8919bc_222223783_409036087216780_7762268027191809836_n.png
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\6cefe0e8-6c86-4c16-ae15-1866692f2f64_222223783_409036087216780_7762268027191809836_n.png
