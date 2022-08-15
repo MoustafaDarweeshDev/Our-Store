@@ -7,15 +7,21 @@ using System.Text;
 using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(args);
-
+string AllowCors = "allowAll";
 // Add services to the container.
 
 builder.Services.AddControllers().AddNewtonsoftJson(n=>n.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<StoreContext>(o=>o.UseSqlServer(builder.Configuration.GetConnectionString("StoreDB")));
-
+builder.Services.AddDbContext<StoreContext>(o=>o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("StoreDB")));
+builder.Services.AddCors(option =>
+{
+    option.AddPolicy(AllowCors, builder =>
+   {
+       builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+   });
+});
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = "StoreAdmin";
@@ -59,7 +65,7 @@ app.UseStaticFiles(new StaticFileOptions
     FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Assets")),
     RequestPath = "/Assets"
 });
-
+app.UseCors(AllowCors);
 app.UseAuthentication();
 
 app.UseAuthorization();
