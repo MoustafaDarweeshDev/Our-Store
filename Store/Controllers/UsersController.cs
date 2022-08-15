@@ -25,7 +25,7 @@ namespace Store.Controllers
 
         // GET: api/Users
         [HttpGet]
-        [Authorize(AuthenticationSchemes = "StoreAdmin" )]
+        //[Authorize(AuthenticationSchemes = "StoreAdmin" )]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
             return await _context.Users.ToListAsync();
@@ -50,7 +50,7 @@ namespace Store.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutUser(int id, User user)
         {
-            if (id != user.UserId)
+            if (id != user.Id)
             {
                 return BadRequest();
             }
@@ -85,12 +85,12 @@ namespace Store.Controllers
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUser", new { id = user.UserId }, user);
+            return CreatedAtAction("GetUser", new { id = user.Id }, user);
         }
 
         // DELETE: api/Users/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUser(int id)
+        public async Task<IActionResult> DeleteUser(string id)
         {
             var user = await _context.Users.FindAsync(id);
             if (user == null)
@@ -106,47 +106,10 @@ namespace Store.Controllers
 
         private bool UserExists(int id)
         {
-            return _context.Users.Any(e => e.UserId == id);
+            return _context.Users.Any(e => e.Id == id);
         }
 
-        [HttpGet("out")]
-        public async Task<ActionResult<IEnumerable<CartItem>>> getCartItems(int id)
-        {
-            //&& c.Ended_At == null
-            CartSession userCart =await _context.CartSessions
-                .Where(c => c.UserId == id )
-                .OrderByDescending(c => c.Id)
-                .FirstOrDefaultAsync();
-            
-
-            if (userCart == null)
-            {
-                return NoContent();
-            }
-
-            List<CartItem> cartItems = await _context.CartItems
-                .Where(c=> c.CartSessionId == userCart.Id).ToListAsync();
-
-            decimal total = 0;
-            decimal? CartDiscount = 0;
-
-            foreach (CartItem item in cartItems)
-            {
-                total+= item.UnitPrice;
-
-
-                item.UnitPrice = item.Product.Price;
-                item.Discount = item.Product.Discount;
-
-                item._DiscountAmount = (item.UnitPrice * item.Discount) / 100;
-
-                CartDiscount += item._DiscountAmount;
-            }
-            userCart.Total = total;
-
-
-            return cartItems;
-        }
+        
 
     }
 }

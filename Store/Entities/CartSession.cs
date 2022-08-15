@@ -5,14 +5,14 @@ namespace Store.Entities
 {
     public class CartSession 
     {
-        [Key, Column(Order = 0)]
+        [Key]
         public int Id { get; set; }
-
-        [Key , Column(Order=1)]
         public int UserId { get; set; }
         public virtual User User { get; set; }
-
+        public int ItemsCount { get; set; }
         public decimal? Total { get; set; }
+        public DateTime Created_At { get; set; }=DateTime.Now;
+        public DateTime Ended_At { get; set; }
         public CartSession()
         {
             CartItems = new HashSet<CartItem>();

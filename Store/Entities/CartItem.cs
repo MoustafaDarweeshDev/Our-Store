@@ -5,11 +5,10 @@ namespace Store.Entities
 {
     public class CartItem
     {
-        [Key, Column(Order = 0)]
+        [Key]
+        public int Id { get; set; }
         public int CartSessionId { get; set; }
         public virtual CartSession CartSession { get; set; }
-
-        [Key, Column(Order = 1)]
         public int ProductId { get; set; }
         public virtual Product Product { get; set; }
         public int Quantity { get; set; }

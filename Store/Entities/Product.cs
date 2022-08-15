@@ -30,8 +30,7 @@ namespace Store.Entities
             productImages = new HashSet<productImages>();
         }
         public virtual ICollection<FeedBack> Feedbacks{ get; set; }
-
-        public ICollection<productImages>? productImages { get; set; }
+        public ICollection<productImages> productImages { get; set; }
 
     }
 }

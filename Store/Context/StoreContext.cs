@@ -1,17 +1,17 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Store.Entities;
 
 namespace Store.Context
 {
-    public class StoreContext : IdentityDbContext<User2>
+    public class StoreContext : IdentityDbContext<User, AppRole , int>
     {
         public StoreContext(DbContextOptions<StoreContext> options) : base(options)
         {
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<User2> Users2 { get; set; }
+        public override DbSet<User> Users { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<FeedBack> FeedBacks { get; set; }
         public DbSet<Category> Categories { get; set; }
@@ -26,15 +26,20 @@ namespace Store.Context
             base.OnModelCreating(modelBuilder);
 
 
-            modelBuilder.Entity<CartSession>()
-                        .HasKey(o => new { o.Id, o.UserId });
+            modelBuilder.Entity<User>().ToTable("User");
+            modelBuilder.Entity<IdentityUserClaim<int>>().ToTable("UserClaim");
 
-            modelBuilder.Entity<CartItem>()
-                        .HasKey(o => new { o.CartSessionId, o.ProductId });
 
-            modelBuilder.Entity<FeedBack>()
-                        .HasKey(o => new { o.ProductId, o.UserId });
-                        
+
+            //modelBuilder.Entity<CartSession>()
+            //            .HasKey(o => new { o.Id, o.UserId });
+
+            //modelBuilder.Entity<CartItem>()
+            //            .HasKey(o => new { o.CartSessionId, o.ProductId });
+
+            //modelBuilder.Entity<FeedBack>()
+            //            .HasKey(o => new { o.ProductId, o.UserId });
+
         }
 
     }

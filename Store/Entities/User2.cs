@@ -1,9 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using static Store.Entities.Id;
 
 namespace Store.Entities
 {
-    public class User2: IdentityUser
+    public class User2 
     {
-        public string? Department { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
     }
 }

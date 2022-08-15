@@ -5,11 +5,11 @@ namespace Store.Entities
 {
     public class FeedBack
     {
+        [Key]
+        public int Id { get; set; }
         public virtual User User { get; set; }
-        [Key , Column(Order =0)]
         public int UserId { get; set; }
         public virtual Product Product { get; set; }
-        [Key, Column(Order = 1)]
         public int ProductId { get; set; }
         public string Comment { get; set; }
         [Range(1,5)]

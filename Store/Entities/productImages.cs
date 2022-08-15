@@ -13,7 +13,7 @@ namespace Store.Entities
         public string Url { get; set; }
 
         [ForeignKey("ProductFK")]
-        public Product? product { get; set; }
+        public Product product { get; set; }
         public int ProductFK { get; set; }
 
     }

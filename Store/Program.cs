@@ -36,7 +36,7 @@ builder.Services.AddAuthentication(options =>
     });
 
 
-builder.Services.AddIdentity<User2, IdentityRole>(option =>
+builder.Services.AddIdentity<User, AppRole>(option =>
 {
     option.Password.RequireNonAlphanumeric = false;
     option.Password.RequiredLength = 6;

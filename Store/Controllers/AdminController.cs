@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
+using Store.Context;
 using Store.DTOs;
 using Store.Entities;
 using System.IdentityModel.Tokens.Jwt;
@@ -15,12 +17,15 @@ namespace Store.Controllers
     public class AdminController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        private readonly UserManager<User2> _userManager;
+        private readonly UserManager<User> _userManager;
+        private readonly StoreContext _context;
 
-        public AdminController(IConfiguration configuration, UserManager<User2> userManager)
+        public AdminController(IConfiguration configuration, UserManager<User> userManager
+            , StoreContext context)
         {
             _configuration = configuration;
             _userManager = userManager;
+            _context = context;
         }
 
 
@@ -28,11 +33,19 @@ namespace Store.Controllers
         [Route("register")]
         public async Task<ActionResult> Register(RegisterDTO registerDTO)
         {
-            var user = new User2()
+            var user = new   User()
             {
-                UserName = registerDTO.Username
+                FirstName = registerDTO.FirstName,
+                LastName = registerDTO.LastName,
+                UserName = registerDTO.Username,
+                Email = registerDTO.Email,
+                Gender = registerDTO.Gender,
+                Address = registerDTO.Address,
+                BirthDay = registerDTO.BirthDay,
+                PhoneNumber = registerDTO.Phone
+
             };
-            var result = await _userManager.CreateAsync(user , registerDTO.Password);
+            var result = await _userManager.CreateAsync(user, registerDTO.Password);
 
             if (!result.Succeeded)
             {
@@ -41,19 +54,32 @@ namespace Store.Controllers
 
             await _userManager.AddClaimsAsync(user, new List<Claim>
             {
-                new Claim(ClaimTypes.NameIdentifier , user.Id),
+                //to string xxx
+                new Claim(ClaimTypes.NameIdentifier , user.Id.ToString()),
 
             });
-
-
-
-            return StatusCode(StatusCodes.Status201Created , "User Added alhamd lelah");
+          
+            return StatusCode(StatusCodes.Status201Created, "User Added alhamd lelah");
         }
 
 
 
+        [HttpPost]
+        [Route("ForgetPassword")]
+        public async Task<ActionResult> ForgetPassword(string newPAss, string oldPass)
+        {
+            //How to Get Current User
+            var cuurentUserId = User.Claims.First(c => c.Type == ClaimTypes.NameIdentifier).Value;
+            var currentUser = await _userManager.FindByIdAsync(cuurentUserId);
+
+            var result = await _userManager.ChangePasswordAsync(currentUser, oldPass, newPAss);
+
+            return Ok();
+        }
+
 
         [HttpPost]
+        //[Route("Login")]
         public async Task<ActionResult> Login(LoginDTO credentials)
         {
 
@@ -71,26 +97,27 @@ namespace Store.Controllers
             var secretKey = _configuration.GetValue<string>("StoreKey");
             var KeyInBytes = Encoding.ASCII.GetBytes(secretKey);
             var Key = new SymmetricSecurityKey(KeyInBytes);
-            var AlgorithmAndKey = new SigningCredentials(Key , SecurityAlgorithms.HmacSha256);
+            var AlgorithmAndKey = new SigningCredentials(Key, SecurityAlgorithms.HmacSha256);
 
             var expDate = DateTime.Now.AddMinutes(15);
 
             var myJwt = new JwtSecurityToken(
                 claims: claims,
                 signingCredentials: AlgorithmAndKey,
-                expires:expDate
+                expires: expDate
                 );
 
 
             var tokenHandler = new JwtSecurityTokenHandler();
 
-            return Ok(new TokenDTO { 
-                Token= tokenHandler.WriteToken(myJwt),
-                Exp=expDate
+            return Ok(new TokenDTO
+            {
+                Token = tokenHandler.WriteToken(myJwt),
+                Exp = expDate
             });
         }
 
-
+        
 
     }
 }
