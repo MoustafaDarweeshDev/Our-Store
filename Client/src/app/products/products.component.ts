@@ -1,26 +1,33 @@
 import { HttpClient } from '@angular/common/http';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { StoreService } from '../store.service';
 
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
   styleUrls: ['./products.component.css']
 })
-export class ProductsComponent implements OnInit {
+export class ProductsComponent implements OnInit , OnDestroy {
 
   prodcts: any;
+  subscription:any;
 
-  constructor(private http:HttpClient) { }
+  constructor(private productsApi:StoreService) { }
+
 
   ngOnInit(): void {
-    this.http.get('https://localhost:7296/api/Product').subscribe((res)=>{
-    this.prodcts = res;
-console.log(res);
+    this.productsApi.getAllProdcts().subscribe((res)=>{
+      this.subscription =this.prodcts = res;
 
     }, err=>{
       console.log(err);
 
     });
   }
+  
+  ngOnDestroy(): void {
+    this.subscription.unusubscribe();
+  }
+
 
 }
