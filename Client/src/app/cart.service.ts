@@ -24,4 +24,5 @@ increase(id:any){
 Decrease(id:any){
   return this.cartApi.get(this.#BaseUrl+'/'+'Decrease'+'/'+id)
 }
+
 }

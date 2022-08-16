@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { Route, Router } from '@angular/router';
 import { StoreService } from '../store.service';
 
 @Component({
@@ -9,9 +10,15 @@ import { StoreService } from '../store.service';
 })
 export class NavBarComponent implements OnInit {
   nmberOfItems:any
-  constructor(private product:StoreService) { }
+  constructor(private product:StoreService ,private route:Router) {
+
+  }
 
   ngOnInit(): void {
     this.nmberOfItems =this.product.GetNumber()
+  }
+
+  userItems(id:any){
+    this.route.navigate(['cart/'+id])
   }
 }

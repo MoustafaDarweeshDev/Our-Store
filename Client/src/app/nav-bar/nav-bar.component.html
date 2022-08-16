@@ -7,7 +7,9 @@
     class="d-flex align-items-center justify-content-around text-uppercase"
     style="font-size: larger"
   >
-    <a class="me-3 py-2 text-dark text-decoration-none" href="#">Home</a>
+    <a class="me-3 py-2 text-dark text-decoration-none" routerLink="products"
+      >Home</a
+    >
     <a class="me-3 py-2 text-dark text-decoration-none" href="#">Shop</a>
     <a class="me-3 py-2 text-dark text-decoration-none" href="#">Contact</a>
   </nav>
@@ -15,12 +17,13 @@
   <div class="d-flex align-items-center">
     <a
       class="d-flex align-items-center me-4 position-relative text-decoration-none"
+      (click)="userItems(11)"
     >
       <i class="fa fa-shopping-cart fa-2x text-dark"></i>
       <div class="cart-no">{{ nmberOfItems }}</div>
     </a>
 
-    <a class="btn btn-outline-secondary me-2">Login</a>
-    <a class="btn btn-outline-secondary me-3">Sign In</a>
+    <a class="btn btn-outline-secondary me-2" routerLink="login">Login</a>
+    <a class="btn btn-outline-secondary me-3" routerLink="signup">Sign In</a>
   </div>
 </div>

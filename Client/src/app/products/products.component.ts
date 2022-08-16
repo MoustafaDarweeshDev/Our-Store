@@ -23,12 +23,15 @@ export class ProductsComponent implements OnInit , OnDestroy {
 
 
   ngOnInit(): void {
-    // this.subscription =
+    this.updatingpage();
+  }
+
+  updatingpage(){
     this.productsApi.getAllProdcts().subscribe((res)=>{
       this.prodcts = res;
 
     }, err=>{
-      // console.log(err);
+      console.log(err);
     });
 
     this.productsApi.getCartById(2).subscribe(res=>{
@@ -40,15 +43,11 @@ export class ProductsComponent implements OnInit , OnDestroy {
     },err=>{
 
     })
-
-    // this.productsApi.SetNumber(2)
   }
 
   addToCart(Prodid:any , Cartid:any){
     this.CartApi.addToCart(Prodid,Cartid).subscribe(res=>{
-
-      console.log(this.cart);
-
+      this.updatingpage()
 
     },err=>{
       console.log(err);

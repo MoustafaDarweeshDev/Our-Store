@@ -1,0 +1,8 @@
+.mine-container
+{
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  border: 3px dashed lightgray;
+  border-radius: 10px;
+}

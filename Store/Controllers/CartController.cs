@@ -93,7 +93,11 @@ namespace Store.Controllers
 
             return Ok(item);
         }
+        //[HttpDelete]
+        //public async Task<IActionResult> Delete(int id)
+        //{
 
+        //}
         
 
         [HttpGet("Increase/{cartItemId}")]
@@ -107,11 +111,11 @@ namespace Store.Controllers
             _context.Entry(item).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return StatusCode(StatusCodes.Status202Accepted);
+            return Ok("added");
 
         }
 
-        [HttpGet("Decrease")]
+        [HttpGet("Decrease/{cartItemId}")]
         public async Task<ActionResult> Decrease(int cartItemId)
         {
             var cartItem = await _context.CartItems.FindAsync(cartItemId);
@@ -126,7 +130,8 @@ namespace Store.Controllers
             _context.Entry(cartItem).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return StatusCode(StatusCodes.Status202Accepted);
+            return Ok("removed");
+
         }
 
 
@@ -139,10 +144,6 @@ namespace Store.Controllers
             var ss = await _context.CartItems.Where(x => x.CartSessionId == item.CartSessionId).ToListAsync();
 
             cart.ItemsCount = ss.Count();
-
-
-
-
 
             _context.Entry(cart).State = EntityState.Modified;
 
