@@ -1091,3 +1091,5 @@ T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.genruntimeconfig.cache
 T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\ref\Store.dll
 T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\4d3f731c-72f1-4029-9685-463f2e8919bc_222223783_409036087216780_7762268027191809836_n.png
 T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\6cefe0e8-6c86-4c16-ae15-1866692f2f64_222223783_409036087216780_7762268027191809836_n.png
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.RazorAssemblyInfo.cache
+T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.RazorAssemblyInfo.cs

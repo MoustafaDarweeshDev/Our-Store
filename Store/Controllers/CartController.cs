@@ -17,7 +17,7 @@ namespace Store.Controllers
             _context = context;
         }
 
-        [HttpGet("Cart/{id}")]
+        [HttpGet("{id}")]
         public async Task<ActionResult<IEnumerable<CartItem>>> getCartItems(int id)
         {
             //&& c.Ended_At == null
@@ -67,11 +67,11 @@ namespace Store.Controllers
         }
 
 
-        [HttpGet("AddToCart")]
+        [HttpGet("{prodId}/{CartId}")]
         public async Task<IActionResult> AddToCart(int prodId ,int  CartId)
         {
             var product = await _context.Products.FindAsync(prodId);
-
+            //var cart = await _context.CartSessions.FindAsync(CartId);
 
             var item = new CartItem {
                 CartSessionId = CartId,
@@ -81,24 +81,28 @@ namespace Store.Controllers
                 Discount = product.Discount,
                  _DiscountAmount = (product.Price * product.Discount / 100)
             };
-            updateTotal(item);
-            _context.Entry(item).State = EntityState.Modified;
 
-            _context.CartItems.Add(item);
+
+
+             _context.Entry(item).State = EntityState.Modified;
+             _context.CartItems.Add(item);
             await _context.SaveChangesAsync();
+            await updateTotal(item);
+
+
 
             return Ok(item);
         }
 
         
 
-        [HttpGet("Increase")]
+        [HttpGet("Increase/{cartItemId}")]
         public async Task<ActionResult> Increase(int cartItemId)
         {
             var item = await _context.CartItems.FindAsync(cartItemId);
             item.Quantity++;
 
-            updateTotal(item);
+            await updateTotal(item);
 
             _context.Entry(item).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -117,7 +121,7 @@ namespace Store.Controllers
                 return BadRequest();
             }
             cartItem.Quantity--;
-            updateTotal(cartItem);
+            await updateTotal(cartItem);
 
             _context.Entry(cartItem).State = EntityState.Modified;
             await _context.SaveChangesAsync();
@@ -129,8 +133,18 @@ namespace Store.Controllers
 
 
         [HttpGet("updateTotal")]
-        public void updateTotal(CartItem item)
+        public async Task updateTotal(CartItem item)
         {
+            var cart=await _context.CartSessions.FindAsync(item.CartSessionId);
+            var ss = await _context.CartItems.Where(x => x.CartSessionId == item.CartSessionId).ToListAsync();
+
+            cart.ItemsCount = ss.Count();
+
+
+
+
+
+            _context.Entry(cart).State = EntityState.Modified;
 
             if (item.Discount > 0)
             {
@@ -147,6 +161,7 @@ namespace Store.Controllers
             {
                 item.Total = item.Quantity * item.UnitPrice;
             }
+            await _context.SaveChangesAsync();
         }
     }
 }

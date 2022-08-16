@@ -7,6 +7,16 @@ import { Injectable } from '@angular/core';
 export class StoreService {
 #BasURL = 'https://localhost:7296/api/Product';
 
+#CartUrl ='https://localhost:7296/api/CartSessions';
+
+nmberOfItems:any;
+SetNumber(data:any){
+    this.nmberOfItems=data
+}
+GetNumber(){
+  return this.nmberOfItems
+}
+
   constructor(private productApi:HttpClient) { }
 
   getAllProdcts(){
@@ -33,5 +43,11 @@ export class StoreService {
   //brands
   getAllBrand(){
     return this.productApi.get(this.#BasURL+"/"+"brand");
+  }
+
+
+  //cart
+  getCartById(id:any){
+    return this.productApi.get(this.#CartUrl+'/'+id)
   }
 }

@@ -1,5 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { StoreService } from '../store.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
-
-  constructor() { }
+  nmberOfItems:any
+  constructor(private product:StoreService) { }
 
   ngOnInit(): void {
+    this.nmberOfItems =this.product.GetNumber()
   }
-
 }

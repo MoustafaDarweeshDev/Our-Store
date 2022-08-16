@@ -9,7 +9,7 @@ namespace Store.Entities
         public int Id { get; set; }
         public int UserId { get; set; }
         public virtual User User { get; set; }
-        public int ItemsCount { get; set; }
+        public int ItemsCount { get; set; } = 0;
         public decimal? Total { get; set; }
         public DateTime Created_At { get; set; }=DateTime.Now;
         public DateTime Ended_At { get; set; }

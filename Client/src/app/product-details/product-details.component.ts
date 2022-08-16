@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { StoreService } from '../store.service';
 
 @Component({
@@ -9,11 +10,15 @@ import { StoreService } from '../store.service';
 export class ProductDetailsComponent implements OnInit {
 
   product:any;
+  id:any;
 
-  constructor(private prodcctApi:StoreService) { }
+  constructor(private prodcctApi:StoreService , public ar:ActivatedRoute) {
+    this.id = ar.snapshot.params["id"]
+
+  }
 
   ngOnInit(): void {
-    this.prodcctApi.getById(3).subscribe(res=>{
+    this.prodcctApi.getById(this.id).subscribe(res=>{
       this.product=res
     },err=>{
       prompt(err)
