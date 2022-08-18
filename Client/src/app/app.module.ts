@@ -14,6 +14,9 @@ import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 import { ErrorComponent } from './error/error.component';
 import { CartComponent } from './cart/cart.component';
 import { CheckoutComponent } from './checkout/checkout.component';
+import { OurnavBarComponent } from './ournav-bar/ournav-bar.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +29,9 @@ import { CheckoutComponent } from './checkout/checkout.component';
     ShoppingCartComponent,
     ErrorComponent,
     CartComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    OurnavBarComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
