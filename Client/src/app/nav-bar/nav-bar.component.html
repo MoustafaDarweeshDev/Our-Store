@@ -20,7 +20,7 @@
       (click)="userItems(11)"
     >
       <i class="fa fa-shopping-cart fa-2x text-dark"></i>
-      <div class="cart-no">{{ nmberOfItems }}</div>
+      <div class="cart-no" *ngIf="itemscount">{{ itemscount }}</div>
     </a>
 
     <a class="btn btn-outline-secondary me-2" routerLink="login">Login</a>

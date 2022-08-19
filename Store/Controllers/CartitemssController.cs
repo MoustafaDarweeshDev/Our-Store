@@ -12,11 +12,11 @@ namespace Store.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CartItemsController : ControllerBase
+    public class CartItemssController : ControllerBase
     {
         private readonly StoreContext _context;
 
-        public CartItemsController(StoreContext context)
+        public CartItemssController(StoreContext context)
         {
             _context = context;
         }

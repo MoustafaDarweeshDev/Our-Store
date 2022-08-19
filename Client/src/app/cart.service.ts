@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Subject } from 'rxjs';
+
 
 @Injectable({
   providedIn: 'root'
@@ -8,21 +10,43 @@ export class CartService {
 
   #BaseUrl = 'https://localhost:7296/api/Cart';
 
-  constructor(private cartApi:HttpClient) { }
+  constructor(private cartApi:HttpClient) {
 
-addToCart(productId:any  , cartId:any){
-  return this.cartApi.get(this.#BaseUrl+'/'+productId+'/'+cartId)
-}
 
-getCartItems(id:any){
-  return this.cartApi.get(this.#BaseUrl+'/'+id)
-}
+   }
 
-increase(id:any){
-  return this.cartApi.get(this.#BaseUrl+'/'+'Increase'+'/'+id)
-}
-Decrease(id:any){
-  return this.cartApi.get(this.#BaseUrl+'/'+'Decrease'+'/'+id)
-}
+  addToCart(productId:any  , cartId:any){
+    return this.cartApi.get(this.#BaseUrl+'/'+productId+'/'+cartId)
+  }
 
+  getCartItems(id:any){
+    return this.cartApi.get(this.#BaseUrl+'/'+id)
+  }
+
+  increase(id:any){
+    return this.cartApi.get(this.#BaseUrl+'/'+'Increase'+'/'+id)
+  }
+  Decrease(id:any){
+    return this.cartApi.get(this.#BaseUrl+'/'+'Decrease'+'/'+id)
+  }
+
+  deleteCartItem(id:any){
+    return this.cartApi.delete(this.#BaseUrl+'/'+id)
+  }
+
+  getcartbyuserid(id:any){
+    return this.cartApi.get(this.#BaseUrl+"/user/"+id)
+  }
+
+
+  // makeing event for the cart iccon
+  private _subject=new Subject<any>();
+
+  newEvent(event:any) {
+    this._subject.next(event);
+  }
+
+  get events$ () {
+    return this._subject.asObservable();
+  }
 }

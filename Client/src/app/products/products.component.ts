@@ -31,26 +31,28 @@ export class ProductsComponent implements OnInit , OnDestroy {
       this.prodcts = res;
 
     }, err=>{
-      console.log(err);
+      // console.log(err);
     });
 
     this.productsApi.getCartById(2).subscribe(res=>{
         this.cart=res;
-        console.log(res);
+        // console.log(res);
         this.itemsNumber = this.cart.itemsCount;
         this.productsApi.SetNumber(this.itemsNumber)
 
     },err=>{
 
     })
+
+
   }
 
   addToCart(Prodid:any , Cartid:any){
     this.CartApi.addToCart(Prodid,Cartid).subscribe(res=>{
       this.updatingpage()
-
+      this.CartApi.newEvent("s");
     },err=>{
-      console.log(err);
+      // console.log(err);
 
     })
   }

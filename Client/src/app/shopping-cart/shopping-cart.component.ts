@@ -10,6 +10,7 @@ import { CartService } from '../cart.service';
 export class ShoppingCartComponent implements OnInit {
   userId:any;
   items:any;
+  cartSession:any;
   constructor(private cartApi:CartService , private ar:ActivatedRoute) {
    this.userId = this.ar.snapshot.params['id'];
   }
@@ -20,11 +21,21 @@ export class ShoppingCartComponent implements OnInit {
   getItems(){
     this.cartApi.getCartItems(this.userId).subscribe(res=>{
         this.items = res;
+        this.cartSession=res
+        console.log(res);
 
     } , err=>{
         console.log(err);
 
     });
+
+
+    this.cartApi.getcartbyuserid(this.userId).subscribe(res=>{
+
+  } , err=>{
+      console.log(err);
+
+  });
   }
 
   plus(id:any){
@@ -49,6 +60,19 @@ export class ShoppingCartComponent implements OnInit {
       this.getItems()
     },err=>{
       console.log(" NO");
+
+      console.log(err);
+      this.getItems()
+
+    })
+  }
+
+  delete(id:any){
+    this.cartApi.deleteCartItem(id).subscribe(res=>{
+      this.cartApi.newEvent("clicked");
+      this.getItems()
+    },err=>{
+      this.cartApi.newEvent("s");
 
       console.log(err);
       this.getItems()

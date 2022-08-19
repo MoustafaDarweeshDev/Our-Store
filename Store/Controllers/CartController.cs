@@ -49,7 +49,13 @@ namespace Store.Controllers
                 item.UnitPrice = item.Product.Price;
                 item.Discount = item.Product.Discount;
 
+
                 item._DiscountAmount = (item.UnitPrice * item.Discount) / 100;
+
+                if(userCart.TotalDiscount==null)
+                    userCart.TotalDiscount =  item._DiscountAmount;
+                else
+                    userCart.TotalDiscount = userCart.TotalDiscount + item._DiscountAmount;
 
                 CartDiscount += item._DiscountAmount;
 
@@ -67,7 +73,19 @@ namespace Store.Controllers
         }
 
 
-        [HttpGet("{prodId}/{CartId}")]
+        [HttpGet("user/{id}")]
+        public async Task<ActionResult<CartSession>> getCartItemsByUserId(int id)
+        {
+            //&& c.Ended_At == null
+            CartSession userCart = await _context.CartSessions
+                .Where(c => c.UserId == id)
+                .OrderByDescending(c => c.Id)
+                .FirstOrDefaultAsync();
+
+            return Ok(userCart);
+        }
+
+            [HttpGet("{prodId}/{CartId}")]
         public async Task<IActionResult> AddToCart(int prodId ,int  CartId)
         {
             var product = await _context.Products.FindAsync(prodId);
@@ -111,7 +129,7 @@ namespace Store.Controllers
             _context.Entry(item).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return Ok("added");
+            return NoContent();
 
         }
 
@@ -130,11 +148,24 @@ namespace Store.Controllers
             _context.Entry(cartItem).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return Ok("removed");
+            return NoContent();
 
         }
 
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteCartItem(int id)
+        {
+            var cartItem = await _context.CartItems.FindAsync(id);
+            if (cartItem == null)
+            {
+                return NotFound();
+            }
+            _context.CartItems.Remove(cartItem);
+            await _context.SaveChangesAsync();
+            await updateTotal(cartItem);
 
+            return NoContent();
+        }
 
 
         [HttpGet("updateTotal")]

@@ -16,7 +16,7 @@ const routes: Routes = [
   {path:'signup' , component:SignUpComponent},
   {path:'cart/:id' , component:ShoppingCartComponent},
   {path:'products/:id' , component:ProductDetailsComponent},
-  {path:'cart' , component:CartComponent},
+  // {path:'cart/:id' , component:CartComponent},
   {path:'check' , component:CheckoutComponent},
   {path:'**' , component:ErrorComponent},
 ];
@@ -26,3 +26,4 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
