@@ -6,7 +6,6 @@
 /* test */
 #product-table tr td{
   vertical-align: middle;
-  text-align: center;
 }
 
 #product-table tr td img {
@@ -16,18 +15,18 @@
 
 
 #product-table tr td input{
-  width: 50px;
   height: 35px;
   text-align: center;
 }
 /* total-cart start */
 
+
 .total-cart{
  background-color: #F7F7F7;
  position: relative;
  padding-bottom: 3rem;
- height: 550px;
- margin-left: 70px;
+ height: 600px;
+ margin-left: 40px;
 }
 
 ul li {
@@ -67,6 +66,12 @@ ul li {
   position: relative;
 }
 
+/*input[type=text]{
+  border-radius: 5px;
+  height: 25px;
+  border-color: #F7F7F7;
+}
+*/
 .total{
   margin-top: 150px ;
 }

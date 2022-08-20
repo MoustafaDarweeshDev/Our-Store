@@ -1,0 +1,28 @@
+nav {
+  background-color: rgb(53, 52, 52);
+}
+a {
+   color: rgb(244, 241, 241);
+}
+nav ul li a:hover {
+  background-color: rgb(90, 87, 87);
+  color: rgb(220, 215, 215);
+}
+.icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons li a{
+   border-radius: 50%;
+   background-color: rgb(72, 69, 69);
+   color: rgb(253, 251, 251);
+   width: 38px;
+   text-align: center;
+
+}
+
+#social:hover{
+  background-color: aliceblue;
+  color: black;
+}

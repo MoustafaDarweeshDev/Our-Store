@@ -12,7 +12,7 @@ namespace Store.Entities
         public string Description { get; set; }
         [Required]
         public decimal Price { get; set; }
-        public int Stock { get; set; } = 0;
+        public int Stock { get; set; } 
         public int? Weight { get; set; }
         public int? Size { get; set; }
         [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]

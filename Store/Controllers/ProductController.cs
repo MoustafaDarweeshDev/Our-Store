@@ -34,7 +34,7 @@ namespace Store.Controllers
                 try
                 {
                    await  db.SaveChangesAsync();
-                    return CreatedAtAction("seccess", db.Products.ToList());
+                    return Ok(p);
                 }
                 catch
                 {
