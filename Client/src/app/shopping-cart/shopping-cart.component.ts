@@ -18,10 +18,10 @@ export class ShoppingCartComponent implements OnInit {
   ngOnInit(): void {
     this.getItems()
   }
+
   getItems(){
     this.cartApi.getCartItems(this.userId).subscribe(res=>{
         this.items = res;
-        this.cartSession=res
         console.log(res);
 
     } , err=>{
@@ -31,6 +31,8 @@ export class ShoppingCartComponent implements OnInit {
 
 
     this.cartApi.getcartbyuserid(this.userId).subscribe(res=>{
+      this.cartSession=res
+      console.log(res);
 
   } , err=>{
       console.log(err);
@@ -47,7 +49,7 @@ export class ShoppingCartComponent implements OnInit {
 
     },err=>{
       console.log(err);
-      this.getItems()
+      this.ngOnInit()
       console.log(" NO");
 
     })
@@ -57,12 +59,12 @@ export class ShoppingCartComponent implements OnInit {
     this.cartApi.Decrease(id).subscribe(res=>{
       console.log(" yes");
       console.log(res);
-      this.getItems()
+      this.ngOnInit()
     },err=>{
       console.log(" NO");
 
       console.log(err);
-      this.getItems()
+      this.ngOnInit()
 
     })
   }

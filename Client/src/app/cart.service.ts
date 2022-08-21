@@ -35,7 +35,7 @@ export class CartService {
   }
 
   getcartbyuserid(id:any){
-    return this.cartApi.get("https://localhost:7296/api/Cart/user/"+id)
+    return this.cartApi.get(this.#BaseUrl+"/user/"+id)
   }
 
 

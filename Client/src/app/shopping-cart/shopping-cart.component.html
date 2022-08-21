@@ -34,8 +34,19 @@
                     <div class="d-flex align-items-center">
                       <p class="fw-bold mb-0 me-5 pe-3">
                         <!-- {{ item.product.price | currency: "USD" }} -->
+                        <span
+                          style="
+                            text-decoration: line-through;
+                            color: rgba(128, 128, 128, 0.678);
+                          "
+                        >
+                          {{
+                            item.unitPrice * item.quantity | currency: "USD"
+                          }}</span
+                        >
                         {{ item.total | currency: "USD" }}
                       </p>
+                      <span>{{item._DiscountAmount}}</span>
                       <div class="def-number-input number-input safari_only">
                         <button class="minus" (click)="minus(item.id)"></button>
                         <input
@@ -56,10 +67,17 @@
                   class="mb-4"
                   style="height: 2px; background-color: #1266f1; opacity: 1"
                 />
-
+                <div class="d-flex justify-content-between px-x">
+                  <p class="fw-bold">Amount:</p>
+                  <p class="fw-bold" style="text-decoration: line-through">
+                    {{ cartSession.amount | currency: "USD" }}
+                  </p>
+                </div>
                 <div class="d-flex justify-content-between px-x">
                   <p class="fw-bold">Discount:</p>
-                  <p class="fw-bold">95$</p>
+                  <p class="fw-bold text-danger">
+                    {{ cartSession.totalDiscount | currency: "USD" }}
+                  </p>
                 </div>
                 <div
                   class="d-flex justify-content-between p-2 mb-2"
@@ -67,7 +85,7 @@
                 >
                   <h5 class="fw-bold mb-0">Total:</h5>
                   <h5 class="fw-bold mb-0">
-                    {{ cartSession }}
+                    {{ cartSession.total | currency: "USD" }}
                   </h5>
                 </div>
               </div>
