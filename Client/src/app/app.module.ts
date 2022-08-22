@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import{HttpClientModule} from  '@angular/common/http';
+import {HttpClientModule} from  '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
@@ -19,7 +19,8 @@ import { OurnavBarComponent } from './ournav-bar/ournav-bar.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { SearchComponent } from './search/search.component';
 import { ItemComponent } from './item/item.component';
-
+import { HeaderComponent } from './header/header.component';
+import{NpnSliderModule}from 'npn-slider';
 
 @NgModule({
   declarations: [
@@ -37,14 +38,17 @@ import { ItemComponent } from './item/item.component';
     OurnavBarComponent,
     ContactUsComponent,
     SearchComponent,
+
     ItemComponent,
+
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

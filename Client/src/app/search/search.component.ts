@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-search',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SearchComponent implements OnInit {
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 
+  constructor(myvalue:FormsModule) { }
+  e:any;
+  valueChanged(e:any){
+      this.e= e.target.value;
+     }
 }

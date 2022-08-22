@@ -1,6 +1,14 @@
-*{
-  margin: 0px;
-  padding: 0px;
+.parent {
+    position: relative;
+    width: 100%;
+    height: 20vh;
+    background-image: url(https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/main-shop-banner.jpg);
+    background-attachment: fixed;
+}
+.parent .child p {
+  color: white;
+  font-weight: 550;
+  font-size: 70px;
 }
 /* #product-table start */
 /* test */
@@ -26,7 +34,6 @@
  position: relative;
  padding-bottom: 3rem;
  height: 600px;
- margin-left: 40px;
 }
 
 ul li {
@@ -147,7 +154,7 @@ input[type=button]:hover{
   left: 2rem;
   bottom: 1rem;
   background-color: #abb8c3;
-  
+
 }
 
 
