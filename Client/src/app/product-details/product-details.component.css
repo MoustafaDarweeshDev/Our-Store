@@ -1,0 +1,164 @@
+
+.product-Img img{
+  width: 600;
+  height: 648;
+}
+
+.product-details h3  {
+  line-height: 37px;
+  font-weight: 300;
+  font-family:lato;
+  font-size: 3rem;
+
+}
+.product-details p:last-of-type{
+  font-size: 20px;
+  font-weight: 200;
+  color: #515151;
+}
+.fa-shopping-cart::after{
+  content: " ADD TO CART";
+}
+.homelink{
+  cursor: pointer;
+  text-decoration: none;
+  color: gray;
+  transition:0s color;
+}
+.homelink:hover{
+  color: black;
+  transition: all 0.3s;
+}
+.btn {
+  height: 5vh;
+}
+a{
+  cursor: pointer;
+}
+.wishlist::after{
+  content: "ADD TO WISHLIST";
+  font-size: 20px;
+}
+.compare::after{
+  content: "Compare";
+  font-size: 20px;
+}
+.side-bar{
+  line-height: 3px;
+}
+.side-bar img {
+  max-width: 100%;
+  width: 45px;
+  height: 45px;
+}
+.side-bar .h6{
+  color: black;
+}
+.side-bar p {
+  letter-spacing: 0;
+  font-size: 14px;
+  color: gray;
+}
+
+.gif-add img{
+  width: 334px;
+  height: 668px;
+  background-color: red;
+}
+iframe{
+  max-width: 334px;
+  max-height: 668px;
+  overflow: hidden;
+}
+.btn {
+  background-color: #6990cb;
+  outline: none;
+  border: none;
+}
+.btn:hover{
+  background-color: #0693e3;
+}
+/* __________________________________________ */
+
+.ull
+{
+  padding: 20px 30px;
+  background-color: rgba(0,0,0,.03);
+  border-radius: 6px;
+  background-clip: padding-box;
+  margin: 30px;
+}
+
+.ul li
+{
+  display: inline;
+  margin-right: 70px;
+}
+
+
+
+.ull ul li span
+{
+  font-weight: 400;
+  color: rgba(0,0,0,.4);
+}
+
+.navv
+{
+  margin: 30px;
+}
+
+.review-form
+{
+  float: right;
+}
+
+.review-form p
+{
+  font-size: 14px;
+  font-style: italic;
+}
+
+.stars
+{
+  display: block;
+  width: auto;
+}
+
+#rating
+{
+  border-radius: 5px;
+  background-clip: padding-box;
+  height: 45px;
+  height: 2.8125rem;
+  padding: 0 15px;
+  padding: 0 0.9375rem;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-size: .875rem;
+  line-height: 1.4rem;
+  font-weight: normal !important;
+  font-weight: 300 !important;
+  background-color: rgba(0,0,0,.03);
+  border: 0;
+  border-color: transparent;
+  outline: 0 none;
+  font-family: inherit;
+  font-weight: normal;
+  font-weight: 400;
+  width: 100%;
+}
+
+form input,textarea
+{
+  width: 100%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  border: none;
+}
+
+form input[type="text"],form input[type="email"]
+{
+  height: 40px;
+  width: 90%;
+}

@@ -67,29 +67,32 @@ namespace Store.Controllers
         }
 
         [HttpPut("{_id}")]
-        public async Task<ActionResult<Product>> Editproduct(Product c, int _id)
+        public async Task<ActionResult<Product>> Editproduct(Product product, int _id)
         {
-            if (c == null) return BadRequest();
-            Product _product =await  db.Products.FindAsync(_id);
-            db.Entry(c).State = EntityState.Modified;
-
-            List<productImages> images = c.productImages.ToList();
-            foreach(productImages image in images)
+            if (_id != product.ProductId)
             {
-                db.Entry(image).State = EntityState.Modified;
+                return BadRequest();
             }
 
+            db.Entry(product).State = EntityState.Modified;
 
-            if (ModelState.IsValid)
+            try
             {
-                
                 await db.SaveChangesAsync();
-                return Ok(c);
             }
-            else
+            catch (DbUpdateConcurrencyException)
             {
-                return BadRequest(ModelState);
+                if (!ProductExists(_id))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }
             }
+
+            return NoContent();
         }
 
 
@@ -130,6 +133,10 @@ namespace Store.Controllers
             
             return await db.Brands.ToListAsync();
             
+        }
+        private bool ProductExists(int id)
+        {
+            return db.Products.Any(e => e.ProductId == id);
         }
     }
 }

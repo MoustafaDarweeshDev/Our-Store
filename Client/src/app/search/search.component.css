@@ -1,0 +1,65 @@
+*{
+  list-style-type: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+.parent {
+  position: relative;
+  height: 20vh;
+  background-image: url(https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/main-shop-banner.jpg);
+  background-attachment: fixed;
+}
+.parent img {
+ height: 300px;
+}
+.cate-bar{
+position: relative;
+top: -20px;
+}
+
+.child p {
+  color: white;
+  /* position: absolute; */
+  /* top: 60px; */
+  /* left: 20px; */
+  font-weight: 550;
+  font-size: 70px;
+}
+
+.Product-section{
+  height: 100px;
+  border: 1px solid #F7F7F7;
+  width: 100%;
+  position: absolute;
+}
+.container{
+  width: 100%;
+}
+
+
+
+.store-products ul li {
+  background-color: #F7F7F7;
+  margin: 2px 0 2px 0;
+  border-radius: 8px;
+  color: rgb(89, 88, 88);
+  font-size: 18px;
+  font-weight: 350px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.store-products ul li:hover{
+  color: black;
+  cursor: pointer;
+}
+
+.filter-by-price {
+  text-align: center;
+}
+
+.filter-by-price label{
+  font-weight: 120px;
+  font-size: 28px;
+
+}
+
+

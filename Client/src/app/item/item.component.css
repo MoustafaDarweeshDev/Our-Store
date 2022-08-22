@@ -1,0 +1,52 @@
+.cat {
+  letter-spacing: 1px;
+  color: gray;
+  font-size: 12px;
+}
+.price {
+  font-size: 24px;
+  font-weight: 100;
+  transition: all 1s;
+}
+.discreption {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  transition: transform 0.3s, visibility 0s, opacity 0.5s linear;
+}
+.card:hover .discreption {
+  visibility: visible;
+  height: auto;
+  opacity: 1;
+  transform: translateY(-50px);
+}
+.card:hover .onhover {
+  transform: translateY(-50px);
+}
+.card:hover .price {
+  display: hidden;
+  color: red;
+  opacity: 0;
+  transition: all 0.3s;
+}
+.red {
+  color: red;
+  border: 1px solid red;
+}
+.onhover {
+  transition: transform 0.3s;
+}
+.line {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+  width: 80%;
+  height: 1px;
+}
+.links a{
+  text-decoration: none;
+  color: rgba(128, 128, 128, 1);
+  font-size: 16px;
+}
+.links a:hover{
+  color: rgba(180, 180, 180, 1);
+
+}

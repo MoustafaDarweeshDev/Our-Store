@@ -79,7 +79,7 @@ namespace Store.Controllers
 
 
         [HttpPost]
-        //[Route("Login")]
+        [Route("Login")]
         public async Task<ActionResult> Login(LoginDTO credentials)
         {
 
