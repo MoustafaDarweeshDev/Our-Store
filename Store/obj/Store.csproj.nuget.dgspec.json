@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "T:\\_CODE___\\Projects\\Store\\Store\\Store.csproj": {}
+    "D:\\Projects\\Our Store\\Our-Store\\Store\\Store.csproj": {}
   },
   "projects": {
-    "T:\\_CODE___\\Projects\\Store\\Store\\Store.csproj": {
+    "D:\\Projects\\Our Store\\Our-Store\\Store\\Store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "T:\\_CODE___\\Projects\\Store\\Store\\Store.csproj",
+        "projectUniqueName": "D:\\Projects\\Our Store\\Our-Store\\Store\\Store.csproj",
         "projectName": "Store",
-        "projectPath": "T:\\_CODE___\\Projects\\Store\\Store\\Store.csproj",
-        "packagesPath": "C:\\Users\\kimoa\\.nuget\\packages\\",
-        "outputPath": "T:\\_CODE___\\Projects\\Store\\Store\\obj\\",
+        "projectPath": "D:\\Projects\\Our Store\\Our-Store\\Store\\Store.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Our Store\\Our-Store\\Store\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kimoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -111,7 +111,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
