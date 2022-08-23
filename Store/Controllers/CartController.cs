@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Store.Context;
@@ -84,7 +85,8 @@ namespace Store.Controllers
             return Ok(userCart);
         }
 
-            [HttpGet("{prodId}/{CartId}")]
+        [HttpGet("{prodId}/{CartId}")]
+        
         public async Task<IActionResult> AddToCart(int prodId ,int  CartId)
         {
             var product = await _context.Products.FindAsync(prodId);

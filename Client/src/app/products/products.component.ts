@@ -46,13 +46,15 @@ export class ProductsComponent implements OnInit , OnDestroy {
 
 
   }
-
+errormsg:string="";
   addToCart(Prodid:any , Cartid:any){
     this.CartApi.addToCart(Prodid,Cartid).subscribe(res=>{
       this.updatingpage()
       this.CartApi.newEvent("s");
     },err=>{
       // console.log(err);
+      this.errormsg = "this item already in the cart"
+      console.log(this.errormsg);
 
     })
   }

@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Store.Entities;
 using Store.Context;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Store.Controllers
 {
@@ -16,7 +17,9 @@ namespace Store.Controllers
             this.db = _db;
         }
 
-        [HttpGet]   
+        [HttpGet]
+        //[Authorize(AuthenticationSchemes= "StoreAdmin" , Policy ="Admin")]
+        //[Authorize()]
         public async Task<ActionResult<IEnumerable<Product>>> Getallproducts()
         {
             return await db.Products.ToListAsync();

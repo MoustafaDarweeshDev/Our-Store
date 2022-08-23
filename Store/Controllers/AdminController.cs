@@ -19,13 +19,16 @@ namespace Store.Controllers
         private readonly IConfiguration _configuration;
         private readonly UserManager<User> _userManager;
         private readonly StoreContext _context;
+        private readonly IHttpContextAccessor httpContextAccessor;
 
         public AdminController(IConfiguration configuration, UserManager<User> userManager
-            , StoreContext context)
+            , StoreContext context,
+            IHttpContextAccessor httpContextAccessor)
         {
             _configuration = configuration;
             _userManager = userManager;
             _context = context;
+            this.httpContextAccessor = httpContextAccessor;
         }
 
 
@@ -56,8 +59,17 @@ namespace Store.Controllers
             {
                 //to string xxx
                 new Claim(ClaimTypes.NameIdentifier , user.Id.ToString()),
+                new Claim("ID" , user.Id.ToString()),
+                new Claim(ClaimTypes.Role , user.Role.ToString()),
+                new Claim("Firstname"  , user.FirstName),
+                new Claim("LastName"  , user.LastName),
+                new Claim("Address"  , user.Address.City),
+                new Claim("Country"  , user.Address.Country),
+                new Claim("Street"  , user.Address.Street),
+                new Claim("Email"  , user.Email),
+                new Claim("Gender"  , user.Gender.ToString()),
 
-            });
+            }); 
           
             return StatusCode(StatusCodes.Status201Created, "User Added alhamd lelah");
         }
@@ -66,13 +78,15 @@ namespace Store.Controllers
 
         [HttpPost]
         [Route("ForgetPassword")]
-        public async Task<ActionResult> ForgetPassword(string newPAss, string oldPass)
+        [Authorize(AuthenticationSchemes = "StoreAdmin", Policy = "User")]
+        public async Task<ActionResult> ForgetPassword(ChangePasswordDTO Passwords)
         {
-            //How to Get Current User
             var cuurentUserId = User.Claims.First(c => c.Type == ClaimTypes.NameIdentifier).Value;
             var currentUser = await _userManager.FindByIdAsync(cuurentUserId);
 
-            var result = await _userManager.ChangePasswordAsync(currentUser, oldPass, newPAss);
+            var result = await _userManager.ChangePasswordAsync(currentUser, Passwords.OldPassword, Passwords.NewPassword);
+
+            await _context.SaveChangesAsync();
 
             return Ok();
         }

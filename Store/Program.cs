@@ -5,6 +5,7 @@ using Store.Context;
 using Store.Entities;
 using System.Text;
 using Microsoft.Extensions.FileProviders;
+using System.Security.Claims;
 
 var builder = WebApplication.CreateBuilder(args);
 string AllowCors = "allowAll";
@@ -27,6 +28,7 @@ builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = "StoreAdmin";
     options.DefaultChallengeScheme = "StoreAdmin";
+
 })
     .AddJwtBearer("StoreAdmin", options => 
     {
@@ -42,6 +44,11 @@ builder.Services.AddAuthentication(options =>
         };
     });
 
+builder.Services.AddAuthorization(option =>
+{
+    option.AddPolicy("Admin", policy => policy.RequireClaim(ClaimTypes.Role, "1" ));
+    option.AddPolicy("User", policy => policy.RequireClaim(ClaimTypes.Role,"1" , "0"));
+});
 
 builder.Services.AddIdentity<User, AppRole>(option =>
 {
@@ -66,6 +73,8 @@ app.UseStaticFiles(new StaticFileOptions
     FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Assets")),
     RequestPath = "/Assets"
 });
+
+
 app.UseCors(AllowCors);
 app.UseAuthentication();
 
