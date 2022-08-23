@@ -49,7 +49,7 @@ namespace Store.Controllers
 
             if (!result.Succeeded)
             {
-                return BadRequest(result.Errors);
+                return BadRequest(new {message = "invalid"});
             }
 
             await _userManager.AddClaimsAsync(user, new List<Claim>
@@ -58,8 +58,9 @@ namespace Store.Controllers
                 new Claim(ClaimTypes.NameIdentifier , user.Id.ToString()),
 
             });
-          
-            return StatusCode(StatusCodes.Status201Created, "User Added alhamd lelah");
+
+
+            return Ok(new { message = "success" });
         }
 
 

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Store.Context;
 using Store.Entities;
 
@@ -37,5 +38,41 @@ namespace testFinal.Controllers
                 return BadRequest();
 
         }
+
+        [HttpDelete("{_id}")]
+        public async Task<IActionResult> DeleteImage(int _id)
+        {
+            productImages s = db.ProductImages.FirstOrDefault(c => c.Id == _id);
+            if (s == null) return NotFound();
+            else
+            {
+                await db.ProductImages.FindAsync(_id);
+                db.ProductImages.Remove(s);
+                try
+                {
+                    await db.SaveChangesAsync();
+                    return Ok();
+                }
+                catch
+                {
+                    return NotFound();
+                }
+            }
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult GetImageById(int id)
+        {
+            List<productImages> c = db.ProductImages.Where(x=>x.ProductFK == id).ToList();
+            if (c == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Ok(c);
+            }
+        }
+
     }
 }

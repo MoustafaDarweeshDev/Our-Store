@@ -39,4 +39,8 @@
     <Folder Include="Migrations\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="Store.sln" />
+  </ItemGroup>
+
 </Project>
