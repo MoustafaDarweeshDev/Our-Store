@@ -1,11 +1,16 @@
+*{
+  list-style-type: none;
+  text-decoration: none;
+}
+
 nav {
   background-color: rgb(53, 52, 52);
 }
 a {
    color: rgb(244, 241, 241);
 }
-nav ul li a:hover {
-  background-color: rgb(90, 87, 87);
+nav  ul li a:hover{
+  /* background-color: rgb(90, 87, 87); */
   color: rgb(220, 215, 215);
 }
 .icons{
@@ -13,7 +18,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
 }
-.icons li a{
+#social{
    border-radius: 50%;
    background-color: rgb(72, 69, 69);
    color: rgb(253, 251, 251);
@@ -25,4 +30,31 @@ nav ul li a:hover {
 #social:hover{
   background-color: aliceblue;
   color: black;
+}
+
+#category{
+  position: relative;
+}
+
+#category .hidden-category{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 100%;
+  visibility: hidden;
+  background-color: rgb(255, 255, 255);
+  z-index: 4;
+  width: 600px;
+  height: 170px;
+  margin-top: 3px;
+}
+
+#category:hover .hidden-category{
+
+  visibility: visible;
+}
+
+.hidden-category ul li a
+{
+   color: rgb(58, 57, 57);
 }

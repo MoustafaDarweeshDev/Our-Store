@@ -4,12 +4,30 @@
 }
 .parent {
   position: relative;
+
+}
+.parent {
+  position: relative;
+
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.parent {
+  position: relative;
+  width: 100%;
   height: 20vh;
   background-image: url(https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/main-shop-banner.jpg);
   background-attachment: fixed;
 }
 .parent img {
  height: 300px;
+ width: 100%;
+}
+.parent .child p {
+  color: white;
+  font-weight: 550;
+  font-size: 70px;
+  margin-left: 5px;
 }
 .cate-bar{
 position: relative;
@@ -36,8 +54,37 @@ top: -20px;
 }
 
 
-
 .store-products ul li {
+border-radius: 6px;
+}
+
+.store-section{
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+.cart-item{
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.cart-item img {
+  width:70px
+}
+
+/* .Product-section start */
+
+.container{
+  width:100%;
+}
+.cart-item span {
+  color: black;
+}
+
+.category{
+  display: flex;
+  justify-content: start;
   background-color: #F7F7F7;
   margin: 2px 0 2px 0;
   border-radius: 8px;
@@ -48,6 +95,16 @@ top: -20px;
 }
 
 .store-products ul li:hover{
+  font-weight: 800px;
+  height: 55px;
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 15px;
+}
+a{
+  color:  rgb(89, 88, 88);
+}
+
+.category a :hover{
   color: black;
   cursor: pointer;
 }
@@ -55,11 +112,52 @@ top: -20px;
 .filter-by-price {
   text-align: center;
 }
+.category img {
+
+  width: 25px;
+}
 
 .filter-by-price label{
   font-weight: 120px;
   font-size: 28px;
 
 }
+.filter{
+  display: flex;
+  justify-content: space-between;
+}
 
+input[type=button]{
+  width: 80px;
+  background-color: #6990cb;
+  color: rgb(243, 250, 250);
+  font-size: 19px;
+}
 
+/* top-rated-products starts */
+
+.top-rated-products .store-products img{
+    width: 80px;
+}
+
+.store-products{
+  display: flex;
+
+}
+
+.store-products .product-discription{
+  margin-left: 10px;
+}
+
+.store-products .product-discription p{
+
+  margin-top: -px;
+}
+
+.store-products a {
+
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+
+}

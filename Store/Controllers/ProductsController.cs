@@ -49,7 +49,11 @@ namespace Store.Controllers
         {
             if (id != product.ProductId)
             {
+<<<<<<< HEAD
                 return BadRequest();
+=======
+                return BadRequest(new {message="invaalid"});
+>>>>>>> f1e50a6c58aac2b5122e8d76e4736fd6112e7126
             }
 
             _context.Entry(product).State = EntityState.Modified;
@@ -78,12 +82,35 @@ namespace Store.Controllers
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
+<<<<<<< HEAD
             _context.Products.Add(product);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction("GetProduct", new { id = product.ProductId }, product);
         }
 
+=======
+            if (product == null) return BadRequest();
+            if (ModelState.IsValid)
+            {
+                _context.Products.Add(product);
+                try
+                {
+                    await _context.SaveChangesAsync();
+                    return Ok(product);
+                }
+                catch
+                {
+                    return BadRequest();
+                }
+            }
+            else
+                return BadRequest(ModelState);
+        }
+
+
+
+>>>>>>> f1e50a6c58aac2b5122e8d76e4736fd6112e7126
         // DELETE: api/Products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
