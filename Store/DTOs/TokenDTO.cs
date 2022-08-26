@@ -3,5 +3,6 @@
 public class TokenDTO
 {
     public string Token { get; set; } = "";
-    public DateTime Exp { get; set; } 
+    public DateTime Exp { get; set; }
+    public string Message { get; set; }
 }

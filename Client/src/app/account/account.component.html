@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-3">
+      <ul class="list-group list-group-flush custom-list">
+        <li class="list-group-item"><a routerLink="dashboard">Dashboard</a></li>
+        <li class="list-group-item"><a routerLink="orders">Orders</a></li>
+        <li class="list-group-item"><a routerLink="addresses">Addresses</a></li>
+        <li class="list-group-item"><a routerLink="account-details">Account details</a></li>
+        <li class="list-group-item"><a (click)="logout()">Logout</a></li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

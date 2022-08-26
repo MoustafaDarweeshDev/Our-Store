@@ -1,10 +1,9 @@
 *{
   list-style-type: none;
-  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
 }
-.parent {
-  position: relative;
-
+i{
+  color: #6990cb;
 }
 .parent {
   position: relative;
@@ -15,12 +14,14 @@
 .parent {
   position: relative;
   width: 100%;
+
   height: 20vh;
   background-image: url(https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/main-shop-banner.jpg);
   background-attachment: fixed;
 }
 .parent img {
  height: 300px;
+
  width: 100%;
 }
 .parent .child p {
@@ -28,18 +29,17 @@
   font-weight: 550;
   font-size: 70px;
   margin-left: 5px;
+
 }
 .cate-bar{
 position: relative;
 top: -20px;
+border-radius: 8px;
 }
 
 .child p {
   color: white;
-  /* position: absolute; */
-  /* top: 60px; */
-  /* left: 20px; */
-  font-weight: 550;
+  font-weight: 500;
   font-size: 70px;
 }
 
@@ -53,7 +53,6 @@ top: -20px;
   width: 100%;
 }
 
-
 .store-products ul li {
 border-radius: 6px;
 }
@@ -61,6 +60,7 @@ border-radius: 6px;
 .store-section{
   display: flex;
   justify-content: flex-start;
+
 
 }
 
@@ -70,7 +70,7 @@ border-radius: 6px;
 }
 
 .cart-item img {
-  width:70px
+  width:50px
 }
 
 /* .Product-section start */
@@ -89,9 +89,10 @@ border-radius: 6px;
   margin: 2px 0 2px 0;
   border-radius: 8px;
   color: rgb(89, 88, 88);
-  font-size: 18px;
   font-weight: 350px;
   font-family: 'Times New Roman', Times, serif;
+  padding-top: 15px;
+  height: 50px;
 }
 
 .store-products ul li:hover{
@@ -100,6 +101,7 @@ border-radius: 6px;
   font-family: 'Times New Roman', Times, serif;
   padding-top: 15px;
 }
+
 a{
   color:  rgb(89, 88, 88);
 }
@@ -114,14 +116,14 @@ a{
 }
 .category img {
 
-  width: 25px;
+  width: 30px;
 }
 
 .filter-by-price label{
   font-weight: 120px;
   font-size: 28px;
-
 }
+
 .filter{
   display: flex;
   justify-content: space-between;
@@ -149,15 +151,23 @@ input[type=button]{
   margin-left: 10px;
 }
 
-.store-products .product-discription p{
-
-  margin-top: -px;
-}
 
 .store-products a {
 
   font-size: 20px;
   font-weight: 600;
   color: black;
+}
+/* ------ search for item  */
 
+input[type=text]{
+  width: 300px;
+  height: 55px;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+  border: 3px solid #6990cb;
+  text-align: center;
+  margin-left: 10px;
+  font-size: 18px;
+  font-weight: 500;
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { LoginService } from '../login.service';
 
 @Component({
   selector: 'app-header',
@@ -6,10 +8,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-
-  constructor() { }
+userId:any
+  constructor(private LoginApi:LoginService  , private router:Router) { }
 
   ngOnInit(): void {
+    this.userId= this.LoginApi.userData._value.ID
   }
 
+  openCart(){
+    this.router.navigate(['cart/'+ this.userId])
+  }
 }

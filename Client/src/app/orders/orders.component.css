@@ -1,0 +1,17 @@
+.orders
+{
+  color: #8fae1c;
+  border: 2px solid #8fae1c;
+  border-radius: 6px;
+  padding: 10px;
+  padding-top: 25px;
+
+}
+
+.orders a
+{
+  text-decoration: none;
+  color: #8fae1c;
+  font-weight: bold;
+  float: right;
+}

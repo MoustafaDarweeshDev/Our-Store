@@ -68,15 +68,14 @@ namespace Store.Controllers
                 new Claim("Street"  , user.Address.Street),
                 new Claim("Email"  , user.Email),
                 new Claim("Gender"  , user.Gender.ToString()),
-
-            }); 
-          
-            return StatusCode(StatusCodes.Status201Created, "User Added alhamd lelah");
+                 new Claim("PhoneNumber",user.PhoneNumber),
+                new Claim("UserName",user.UserName),
 
             });
 
+            //return StatusCode(StatusCodes.Status201Created, "success");
 
-            //return Ok(new { message = "success" });
+            return Ok(new { message = "success" });
         }
 
 
@@ -97,7 +96,7 @@ namespace Store.Controllers
         }
 
 
-        [HttpPost]
+        [HttpPost] 
         [Route("Login")]
         public async Task<ActionResult> Login(LoginDTO credentials)
         {
@@ -105,6 +104,7 @@ namespace Store.Controllers
             var requiredUser = await _userManager.FindByNameAsync(credentials.Username);
 
             var isAuth = await _userManager.CheckPasswordAsync(requiredUser, credentials.Password);
+
 
             if (!isAuth)
             {
@@ -132,7 +132,8 @@ namespace Store.Controllers
             return Ok(new TokenDTO
             {
                 Token = tokenHandler.WriteToken(myJwt),
-                Exp = expDate
+                Exp = expDate,
+                Message="success",
             });
         }
 

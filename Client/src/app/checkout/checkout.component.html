@@ -4,7 +4,7 @@
 <div class="container">
 <div class="chech-out m-5 ">
  <div class="row">
-   <div class="column col-lg-6 cols-sm-6 col-md-12">
+   <!-- <div class="column col-lg-6 cols-sm-6 col-md-12">
      <form>
        <div class="row">
          <div class="col">
@@ -78,7 +78,7 @@
          <textarea class="form-control" id="text area" rows="3" placeholder="Notes About Your Order"></textarea>
        </div>
        </form>
-   </div>
+   </div> -->
    <!-- payment cart start -->
    <div class="column col-lg-6 cols-sm-6 col-md-12" id="payMent-Cart">
      <div class="payMent-Cart" >
@@ -94,35 +94,26 @@
              </tr>
            </thead>
            <tbody>
-             <tr>
-               <td>Apple iPhone6× 9</td>
-               <td>$7,650.00</td>
-             </tr>
-             <tr>
-               <td>Cintiq 22HD Touch × 5</td>
-               <td>$11,499.50</td>
+             <tr *ngFor="let item of items">
+              <!-- {{ item.total | json}} -->
+               <td>{{ item.product.name}}</td>
+               <td>{{
+                item.unitPrice * item.quantity | currency: "USD"
+              }}</td>
              </tr>
              <tr>
                <td class="border-0">Subtotal</td>
-               <td class="border-0">$19,149.50</td>
+               <td class="border-0">{{ cart.amount }}</td>
              </tr>
              <tr>
                    <td><legend class="col-form-label col-sm-2 pt-0">Shipping</legend></td>
-                   <td><div class="col-sm-10">
-                     <div class="form-check">
-                       <input class="form-check-input" type="radio" name="shipping" id="gridRadios1"value="Flat Rate">
-                       <label class="form-check-label" for="gridRadios1">Flat Rate:$5.00</label>
-                     </div>
-                     <div class="form-check">
-                       <input class="form-check-input" type="radio" name="shipping" id="gridRadios2" value="Free Shipping">
-                       <label class="form-check-label" for="gridRadios2">Free Shipping</label>
-                     </div>
-                   </div>
+                   <td>
+                    10$
                  </td>
              </tr>
              <tr>
                <td  class="pb-5">Total</td>
-               <td  class="pb-5">$19,154.50</td>
+               <td  class="pb-5">{{ cart.amount + 110 | currency:"USD"}}</td>
              </tr>
              <tr>
                <td colspan="2" class="border-0">

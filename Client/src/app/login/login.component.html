@@ -1,16 +1,288 @@
-<h2 class="text-center">Login</h2>
-<div class="mine-container">
-    <form>
-      <div class="col-md-12">
-        <label for="inputEmail4" class="form-label">Email Or User Name*</label>
-        <input type="text" class="form-control" id="inputEmail4">
+<div class="container-fluid">
+  <div class="row navv">
+    <ul
+      class="nav nav-tabs d-flex justify-content-center align-content-center bg-warning"
+      id="myTab"
+      role="tablist"
+    >
+      <li class="nav-item" role="presentation">
+        <a
+          class="nav-link active"
+          id="home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#home"
+          type="button"
+          role="tab"
+          aria-controls="home"
+          aria-selected="true"
+        >
+          <h2>Login</h2>
+        </a>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile"
+          type="button"
+          role="tab"
+          aria-controls="profile"
+          aria-selected="false"
+        >
+          <h2>Register</h2>
+        </button>
+      </li>
+    </ul>
+
+    <!-- components -->
+
+    <div class="tab-content forms" id="myTabContent">
+      <div
+        class="tab-pane fade show active login"
+        id="home"
+        role="tabpanel"
+        aria-labelledby="home-tab"
+      >
+        <h2 class="text-center mt-5">Login</h2>
+        <div class="mine-container">
+          <form [formGroup]="loginForm" (ngSubmit)="Login(loginForm)">
+            <div class="col-md-12">
+              <label for="username" class="form-label">User Name*</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputEmail4"
+                formControlName="username"
+              />
+              <div
+                class="alert"
+                *ngIf="
+                  loginForm.get('username')?.errors &&
+                  loginForm.get('username')?.touched
+                "
+              >
+                <p
+                  class="alert py-1 alert-danger"
+                  *ngIf="loginForm.get('username')?.getError('minlength')"
+                >
+                  name must be more than 3 letters
+                </p>
+                <p
+                  class="alert py-1 alert-danger"
+                  *ngIf="loginForm.get('username')?.getError('required')"
+                >
+                  username is required
+                </p>
+              </div>
+            </div>
+            <div class="col-md-12" style="margin-bottom: 10px">
+              <label for="password" class="form-label">Password*</label>
+              <input
+                type="password"
+                class="form-control"
+                id="inputPassword4"
+                formControlName="password"
+              />
+              <div
+                class="alert"
+                *ngIf="
+                  loginForm.get('password')?.errors &&
+                  loginForm.get('password')?.touched
+                "
+              >
+                <p
+                  class="alert alert-danger py-1"
+                  *ngIf="loginForm.get('password')?.getError('required')"
+                >
+                  password is required
+                </p>
+              </div>
+            </div>
+            <div class="col-12">
+              <button
+                [disabled]="loginForm.invalid"
+                type="submit"
+                class="btn btn-primary my-3"
+              >
+                Login
+              </button>
+            </div>
+            <div *ngIf="error != ''" class="alert">
+              <p class="alert alert-danger">{{ error }}</p>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="col-md-12" style="margin-bottom: 10px;">
-        <label for="inputPassword4" class="form-label">Password*</label>
-        <input type="password" class="form-control" id="inputPassword4">
+      <div
+        class="tab-pane fade"
+        id="profile"
+        role="tabpanel"
+        aria-labelledby="profile-tab"
+      >
+        <div
+          class="panel entry-content wc-tab register"
+          id="tab-additional_information"
+        >
+          <h2 class="text-center mt-5">Register</h2>
+          <div class="mine-container">
+            <form [formGroup]="registerForm" (ngSubmit)="register(registerForm)"  class="row g-3 needs-validation d-flex justify-content-center">
+              <div class="col-md-5">
+                <label for="firstName" class="form-label"
+                  >First name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  formControlName="firstName"
+                />
+                <div class="errs" *ngIf="registerForm.get('firstName')?.errors && registerForm.get('firstName')?.touched">
+                  <p class="text-danger" *ngIf="registerForm.get('firstName')?.errors?.['required']">firstName is required</p>
+                  <p class="text-danger" *ngIf="registerForm.get('firstName')?.errors?.['pattern']">firstName must be letters only ,min letteris is 2 , max letters is 30</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <label for="lastName" class="form-label"
+                  >Last name</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom02"
+                  formControlName="lastName"
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-10">
+                <label for="validationCustom03" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom03"
+                />
+                <div class="errs" *ngIf="registerForm.get('lastName')?.errors && registerForm.get('lastName')?.touched">
+                  <p class="text-danger" *ngIf="registerForm.get('lastName')?.errors?.['required']">lastName is required</p>
+                  <p class="text-danger" *ngIf="registerForm.get('lastName')?.errors?.['pattern']">lastName must be letters only ,min letteris is 2 , max letters is 30</p>
+                </div>
+              </div>
+              <div class="col-md-10">
+                <label for="validationCustom03" class="form-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom03"
+                />
+                <div class="errs" *ngIf="registerForm.get('lastName')?.errors && registerForm.get('lastName')?.touched">
+                  <p class="text-danger" *ngIf="registerForm.get('lastName')?.errors?.['required']">lastName is required</p>
+                  <p class="text-danger" *ngIf="registerForm.get('lastName')?.errors?.['pattern']">lastName must be letters only ,min letteris is 2 , max letters is 30</p>
+                </div>
+              </div>
+              <div class="col-md-5">
+                <label for="validationCustom01" class="form-label"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="validationCustom01"
+                  required
+                />
+                <div class="valid-feedback">Looks good!</div>
+              </div>
+              <div class="col-md-5">
+                <label for="validationCustom02" class="form-label"
+                  >Confirm Password</label
+                >
+                <input
+                  type="password"
+                  class="form-control"
+                  id="validationCustom02"
+                  required
+                />
+                <div class="invalid-feedback">
+                  The password you enterd do not match.
+                </div>
+              </div>
+              <div class="col-md-5">
+                <label for="validationCustom01" class="form-label">Phone</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="validationCustom01"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please provide a valid phone number.
+                </div>
+              </div>
+              <div class="col-md-5">
+                <label for="validationCustom02" class="form-label"
+                  >Confirm Phone</label
+                >
+                <input
+                  type="number"
+                  class="form-control"
+                  id="validationCustom02"
+                  required
+                />
+                <div class="invalid-feedback">
+                  The phone number you enterd do not match.
+                </div>
+              </div>
+
+              <div class="col-10">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="col-10">
+                <a class="btn btn-primary text-center my-3" type="submit">
+                  Sign Up
+                </a>
+              </div>
+            </form>
+          </div>
+
+          <script>
+            // Example starter JavaScript for disabling form submissions if there are invalid fields
+            (function () {
+              "use strict";
+
+              // Fetch all the forms we want to apply custom Bootstrap validation styles to
+              var forms = document.querySelectorAll(".needs-validation");
+
+              // Loop over them and prevent submission
+              Array.prototype.slice.call(forms).forEach(function (form) {
+                form.addEventListener(
+                  "submit",
+                  function (event) {
+                    if (!form.checkValidity()) {
+                      event.preventDefault();
+                      event.stopPropagation();
+                    }
+
+                    form.classList.add("was-validated");
+                  },
+                  false
+                );
+              });
+            })();
+          </script>
+        </div>
       </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Login</button>
-      </div>
-    </form>
+    </div>
+  </div>
 </div>

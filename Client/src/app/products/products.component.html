@@ -37,13 +37,13 @@
       <div class="col-md-6 col-lg-4 col-xl-3" *ngFor="let product of prodcts">
         <div id="product-4" class="single-product">
           <div class="part-1">
-            <span class="discount" *ngIf="product.discount < 7">
+            <span class="discount" *ngIf="product.discount > 0">
               {{ product.discount }}% off</span
             >
             <!-- <span class="new" ngTemplateOutlet="new">new</span> -->
             <ul>
               <li>
-                <a (click)="addToCart(product.productId, 2)"
+                <a (click)="addToCart(product.productId,2 )"
                   ><i class="fa fa-shopping-cart"></i
                 ></a>
               </li>

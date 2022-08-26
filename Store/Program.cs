@@ -17,7 +17,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 //builder.Services.AddDbContext<StoreContext>(o => o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("StoreDB")));
 
-builder.Services.AddDbContext<StoreContext>(o=>o.UseSqlServer(builder.Configuration.GetConnectionString("StoreDB")));
+//builder.Services.AddDbContext<StoreContext>(o=>o.UseSqlServer(builder.Configuration.GetConnectionString("StoreDB")));
 
 builder.Services.AddDbContext<StoreContext>(o=>o.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("StoreDB")));
 

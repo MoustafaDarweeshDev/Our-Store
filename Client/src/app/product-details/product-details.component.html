@@ -1,231 +1,370 @@
-<div class="continer">
-  <!-- <h2>{{ product.name }}</h2>
-<p>{{ product.description }}</p>
-<p>{{ product.price }}</p>
-<p>{{ product.stock }}</p>
-<p>{{ product.sate_First_Available }}</p> -->
-
-
-<div class="container-fluid my-5">
-  <div class="row">
-    <div
-      class="product-Img col-sm-12 col-lg-5 d-flex justify-content-center align-items-center"
-    >
-      <img
-        src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/02/hero-silver-01-600x638.jpg"
-        alt=""
-      />
-    </div>
-    <!-- item details -->
-    <div
-      class="product-details text-center-left text-left-center col-sm-12 col-lg-4 d-flex flex-column justify-content-start mt-5"
-    >
-      <p>
-        <a class="homelink">Our Store ELECTRONICS</a> >
-        <a class="homelink">SHOP</a> > {{ product.name }}
-      </p>
-      <h2 class="h1 mb-3">{{ product.name }}</h2>
-      <h3 class="my-3">${{ product.price }}</h3>
-      <p class="py-5">
-        {{ product.description }}
-      </p>
-      <h6 class="mb-5">
-        This is a Demo Online Store. No orders shall be fulfilled.
-      </h6>
-      <a
-        class="btn btn-primary d-flex justify-content-evenly align-items-center align-self-center my-4"
-      >
-        <i class="fa fa-shopping-cart"></i
-      ></a>
-      <a
-        class="wishlist mt-3 h4 text-decoration-none text-dark cursor-pointer"
-      >
-        <i class="fa fa-solid fa-heart me-2"></i>
-      </a>
-      <a class="compare h4 text-decoration-none text-dark cursor-pointer">
-        <i class="fa fa-solid fa-repeat me-2"></i>
-      </a>
-    </div>
-
-    <div class="side-bar d-none d-md-block col-lg-3 d-flex flex-column mt-5">
-      <div class="">
-        <div class="d-flex px-3 mt-3">
-          <img
-            src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/shipping_icon.png"
-            alt=""
-            class="col-2 me-3"
-          />
-          <div>
-            <p class="h6">FREE SHIPPING</p>
-            <p class="">Free shipping on all orders over $99.</p>
-          </div>
+<div class="container-fluid">
+  <div class="continer">
+    <!-- <h2>{{ product.name }}</h2>
+  <p>{{ product.description }}</p>
+  <p>{{ product.price }}</p>
+  <p>{{ product.stock }}</p>
+  <p>{{ product.sate_First_Available }}</p> -->
+    <!-- {{ product.productImages | json }} -->
+    <div class="container-fluid my-5">
+      <div class="row">
+        <div
+          class="product-Img col-sm-12 col-lg-5 d-flex justify-content-center align-items-center"
+          *ngFor="let item of product.productImages"
+          style="max-width: 40vw;"
+        >
+          <img [src]="item.url" alt="" class="p-img" />
+        </div>
+        <!-- item details -->
+        <div
+          class="product-details text-center-left text-left-center col-sm-12 col-lg-4 d-flex flex-column justify-content-start mt-5"
+        >
+          <p>
+            <a class="homelink">Our Store ELECTRONICS</a> >
+            <a class="homelink">SHOP</a> > {{ product.name }}
+          </p>
+          <h2 class="h1 mb-3">{{ product.name }}</h2>
+          <h3 class="my-3">${{ product.price }}</h3>
+          <p class="py-5">
+            {{ product.description }}
+          </p>
+          <h6 class="mb-5">
+            This is a Demo Online Store. No orders shall be fulfilled.
+          </h6>
+          <a
+            class="btn btn-primary d-flex justify-content-evenly align-items-center align-self-center my-4"
+          >
+            <i class="fa fa-shopping-cart"></i
+          ></a>
+          <a
+            class="wishlist mt-3 h4 text-decoration-none text-dark cursor-pointer"
+          >
+            <i class="fa fa-solid fa-heart me-2"></i>
+          </a>
+          <a class="compare h4 text-decoration-none text-dark cursor-pointer">
+            <i class="fa fa-solid fa-repeat me-2"></i>
+          </a>
         </div>
 
-        <div class="d-flex px-3 mt-3">
-          <img
-            src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/shipping_icon2.png"
-            alt=""
-            class="col-2 me-3"
-          />
-          <div>
-            <p class="h6">FMONEY BACK GUARANTEE</p>
-            <p class="">100% money back guarantee.</p>
+        <div
+          class="side-bar d-none d-md-block col-lg-3 d-flex flex-column mt-5"
+        >
+          <div class="">
+            <div class="d-flex px-3 mt-3">
+              <img
+                src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/shipping_icon.png"
+                alt=""
+                class="col-2 me-3"
+              />
+              <div>
+                <p class="h6">FREE SHIPPING</p>
+                <p class="">Free shipping on all orders over $99.</p>
+              </div>
+            </div>
+
+            <div class="d-flex px-3 mt-3">
+              <img
+                src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/shipping_icon2.png"
+                alt=""
+                class="col-2 me-3"
+              />
+              <div>
+                <p class="h6">FMONEY BACK GUARANTEE</p>
+                <p class="">100% money back guarantee.</p>
+              </div>
+            </div>
+
+            <div class="d-flex px-3 mt-3">
+              <img
+                src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/shipping_icon3.png"
+                alt=""
+                class="col-2 me-3"
+              />
+              <div>
+                <p class="h6">ONLINE SUPPORT 24/7</p>
+                <p class="">You can Order at anytime</p>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div class="d-flex px-3 mt-3">
-          <img
-            src="https://woodstock.temashdesign.me/electronics/wp-content/uploads/sites/2/2016/03/shipping_icon3.png"
-            alt=""
-            class="col-2 me-3"
-          />
-          <div>
-            <p class="h6">ONLINE SUPPORT 24/7</p>
-            <p class="">You can Order at anytime</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="gif-add align-self-center">
-        <iframe
-          src="https://giphy.com/embed/d8Emd2WnaJR2HoiHQy"
-          width="480"
-          height="480"
-          frameBorder="0"
-          class="giphy-embed"
-          allowFullScreen
-        ></iframe>
-        <p>
-          <a href=""></a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-_________________________________________________
-<div class="row ull">
-  <ul class="ul">
-    <li><span>SKU:</span>WS-M001</li>
-    <li><span>Category:</span> Smartwatch</li>
-  </ul>
-</div>
-<div class="row navv">
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Description</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Additional information</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Reviews (0)</button>
-    </li>
-  </ul>
-  <div class="tab-content" id="myTabContent">
-    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-      The new Moto 360 combines edge-to-edge glass with an exceptionally thin, polished bezel, giving you the largest viewing area. Whether you choose rose gold, black, or silver, the case is precision-crafted from aircraft-grade stainless steel.
-    </div>
-    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-      <div class="panel entry-content wc-tab" id="tab-additional_information">
-      <table class="woocommerce-product-attributes shop_attributes">
-            <tbody><tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_bluetooth">
-            <th class="woocommerce-product-attributes-item__label">bluetooth</th>
-            <td class="woocommerce-product-attributes-item__value"><p>4.0</p>
-      </td>
-          </tr>
-            <tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_os">
-            <th class="woocommerce-product-attributes-item__label">os</th>
-            <td class="woocommerce-product-attributes-item__value"><p>Android</p>
-      </td>
-          </tr>
-            <tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_storage">
-            <th class="woocommerce-product-attributes-item__label">storage</th>
-            <td class="woocommerce-product-attributes-item__value"><p>8GB</p>
-      </td>
-          </tr>
-        </tbody></table>
-
-                  </div>
-    </div>
-    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-      <div class="col-6">
-        There are no reviews yet.
-      </div>
-      <div class="col-6 review-form">
-        <h3>
-          Be the first to review “<br/>
-          <span>Motorola Moto 360</span>”
-        </h3>
-        <p>
-          Your email address will not be published. Required fields are marked *
-        </p>
-        <form>
-          <div class="comment-form-rating">
-            <label for="rating">Your rating</label>
-            <p class="stars">
-              <span>
-                <a class="star-1" href="#">1</a>
-                <a class="star-2" href="#">2</a>
-                <a class="star-3" href="#">3</a>
-                <a class="star-4" href="#">4</a>
-                <a class="star-5" href="#">5</a>
-              </span>
+          <div class="gif-add align-self-center">
+            <iframe
+              src="https://giphy.com/embed/d8Emd2WnaJR2HoiHQy"
+              width="480"
+              height="480"
+              frameBorder="0"
+              class="giphy-embed"
+              allowFullScreen
+            ></iframe>
+            <p>
+              <a href=""></a>
             </p>
-            <select name="rating" id="rating" required="" style="display: none;">
-            <option value="">Rate…</option>
-            <option value="5">Perfect</option>
-            <option value="4">Good</option>
-            <option value="3">Average</option>
-            <option value="2">Not that bad</option>
-            <option value="1">Very poor</option>
-          </select>
+          </div>
         </div>
+      </div>
+    </div>
+  </div>
 
-        <p class="comment-form-comment"><label for="comment">Your review&nbsp;<span class="required">*</span></label><textarea autocomplete="new-password" id="comment" name="hb1f3452e3" cols="45" rows="8" required="" style="height: 50px; width: 385px;"></textarea><textarea id="a7d508cb996786c88098acb4863aec20" aria-label="hp-comment" aria-hidden="true" name="comment" autocomplete="new-password" style="padding:0 !important;clip:rect(1px, 1px, 1px, 1px) !important;position:absolute !important;white-space:nowrap !important;height:1px !important;width:1px !important;overflow:hidden !important;" tabindex="-1"></textarea><script data-noptimize="" type="text/javascript">document.getElementById("comment").setAttribute( "id", "a7d508cb996786c88098acb4863aec20" );document.getElementById("hb1f3452e3").setAttribute( "id", "comment" );</script></p>
-        <p class="comment-form-author"><label for="author">Name&nbsp;<span class="required">*</span></label><input id="author" name="author" type="text" value="" size="30" required=""></p>
-        <p class="comment-form-email"><label for="email">Email&nbsp;<span class="required">*</span></label>
-          <br/><input id="email" name="email" type="email" value="" size="30" required=""></p>
-        <p class="comment-form-cookies-consent"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" value="yes"> <label for="wp-comment-cookies-consent">Save my name, email, and website in this browser for the next time I comment.</label></p>
-        <!-- <p class="form-submit">
-          <input name="submit" type="submit" id="submit" class="submit btn btn-primary" value="Submit">
-          <input type="hidden" name="comment_post_ID" value="1865" id="comment_post_ID">
-          <input type="hidden" name="comment_parent" id="comment_parent" value="0">
-        </p> -->
-        <button class="btn btn-primary my-btn">Submit</button>
-        </form>
+  <div class="row ull">
+    <ul class="ul">
+      <li><span>SKU:</span>WS-M001</li>
+      <li><span>Category:</span> Smartwatch</li>
+    </ul>
+  </div>
+  <div class="row navv">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#home"
+          type="button"
+          role="tab"
+          aria-controls="home"
+          aria-selected="true"
+        >
+          Description
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile"
+          type="button"
+          role="tab"
+          aria-controls="profile"
+          aria-selected="false"
+        >
+          Additional information
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          Reviews (0)
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane fade show active"
+        id="home"
+        role="tabpanel"
+        aria-labelledby="home-tab"
+      >
+        The new Moto 360 combines edge-to-edge glass with an exceptionally thin,
+        polished bezel, giving you the largest viewing area. Whether you choose
+        rose gold, black, or silver, the case is precision-crafted from
+        aircraft-grade stainless steel.
+      </div>
+      <div
+        class="tab-pane fade"
+        id="profile"
+        role="tabpanel"
+        aria-labelledby="profile-tab"
+      >
+        <div class="panel entry-content wc-tab" id="tab-additional_information">
+          <table class="woocommerce-product-attributes shop_attributes">
+            <tbody>
+              <tr
+                class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_bluetooth"
+              >
+                <th class="woocommerce-product-attributes-item__label">
+                  bluetooth
+                </th>
+                <td class="woocommerce-product-attributes-item__value">
+                  <p>4.0</p>
+                </td>
+              </tr>
+              <tr
+                class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_os"
+              >
+                <th class="woocommerce-product-attributes-item__label">os</th>
+                <td class="woocommerce-product-attributes-item__value">
+                  <p>Android</p>
+                </td>
+              </tr>
+              <tr
+                class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_pa_storage"
+              >
+                <th class="woocommerce-product-attributes-item__label">
+                  storage
+                </th>
+                <td class="woocommerce-product-attributes-item__value">
+                  <p>8GB</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div
+        class="tab-pane fade"
+        id="contact"
+        role="tabpanel"
+        aria-labelledby="contact-tab"
+      >
+        <div class="col-6">There are no reviews yet.</div>
+        <div class="col-6 review-form">
+          <h3>
+            Be the first to review “<br />
+            <span>Motorola Moto 360</span>”
+          </h3>
+          <p>
+            Your email address will not be published. Required fields are marked
+            *
+          </p>
+          <form>
+            <div class="comment-form-rating">
+              <label for="rating">Your rating</label>
+              <p class="stars">
+                <span>
+                  <a class="star-1" href="#">1</a>
+                  <a class="star-2" href="#">2</a>
+                  <a class="star-3" href="#">3</a>
+                  <a class="star-4" href="#">4</a>
+                  <a class="star-5" href="#">5</a>
+                </span>
+              </p>
+              <select
+                name="rating"
+                id="rating"
+                required=""
+                style="display: none"
+              >
+                <option value="">Rate…</option>
+                <option value="5">Perfect</option>
+                <option value="4">Good</option>
+                <option value="3">Average</option>
+                <option value="2">Not that bad</option>
+                <option value="1">Very poor</option>
+              </select>
+            </div>
+
+            <p class="comment-form-comment">
+              <label for="comment"
+                >Your review&nbsp;<span class="required">*</span></label
+              ><textarea
+                autocomplete="new-password"
+                id="comment"
+                name="hb1f3452e3"
+                cols="45"
+                rows="8"
+                required=""
+                style="height: 50px; width: 385px"
+              ></textarea
+              ><textarea
+                id="a7d508cb996786c88098acb4863aec20"
+                aria-label="hp-comment"
+                aria-hidden="true"
+                name="comment"
+                autocomplete="new-password"
+                style="
+                  padding: 0 !important;
+                  clip: rect(1px, 1px, 1px, 1px) !important;
+                  position: absolute !important;
+                  white-space: nowrap !important;
+                  height: 1px !important;
+                  width: 1px !important;
+                  overflow: hidden !important;
+                "
+                tabindex="-1"
+              ></textarea>
+              <script data-noptimize="" type="text/javascript">
+                document
+                  .getElementById("comment")
+                  .setAttribute("id", "a7d508cb996786c88098acb4863aec20");
+                document
+                  .getElementById("hb1f3452e3")
+                  .setAttribute("id", "comment");
+              </script>
+            </p>
+            <p class="comment-form-author">
+              <label for="author"
+                >Name&nbsp;<span class="required">*</span></label
+              ><input
+                id="author"
+                name="author"
+                type="text"
+                value=""
+                size="30"
+                required=""
+              />
+            </p>
+            <p class="comment-form-email">
+              <label for="email"
+                >Email&nbsp;<span class="required">*</span></label
+              >
+              <br /><input
+                id="email"
+                name="email"
+                type="email"
+                value=""
+                size="30"
+                required=""
+              />
+            </p>
+            <p class="comment-form-cookies-consent">
+              <input
+                id="wp-comment-cookies-consent"
+                name="wp-comment-cookies-consent"
+                type="checkbox"
+                value="yes"
+              />
+              <label for="wp-comment-cookies-consent"
+                >Save my name, email, and website in this browser for the next
+                time I comment.</label
+              >
+            </p>
+            <!-- <p class="form-submit">
+            <input name="submit" type="submit" id="submit" class="submit btn btn-primary" value="Submit">
+            <input type="hidden" name="comment_post_ID" value="1865" id="comment_post_ID">
+            <input type="hidden" name="comment_parent" id="comment_parent" value="0">
+          </p> -->
+            <button class="btn btn-primary my-btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-3">
+    <div class="row">
+      <div class="col-3">
+        <img src="../assets/images/product-details/shipping_icon.png" />
+      </div>
+      <div class="col-9">
+        <h5>FREE SHIPPING</h5>
+        <p>Free shipping on all orders over $99.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="../assets/images/product-details/shipping_icon2.png" />
+      </div>
+      <div class="col-9">
+        <h5>MONEY BACK GUARANTEE</h5>
+        <p>100% money back guarantee.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <img src="../assets/images/product-details/shipping_icon3.png" />
+      </div>
+      <div class="col-9">
+        <h5>ONLINE SUPPORT 24/7</h5>
+        <p>Lorem ipsum dolor sit amet.</p>
       </div>
     </div>
   </div>
 </div>
-<div class="col-3">
-<div class="row">
-  <div class="col-3">
-    <img src="../assets/images/product-details/shipping_icon.png"/>
-  </div>
-  <div class="col-9">
-    <h5>FREE SHIPPING</h5>
-    <p>Free shipping on all orders over $99.</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-3">
-    <img src="../assets/images/product-details/shipping_icon2.png"/>
-  </div>
-  <div class="col-9">
-    <h5>MONEY BACK GUARANTEE</h5>
-    <p>100% money back guarantee.</p>
-  </div>
-</div>
-<div class="row">
-  <div class="col-3">
-    <img src="../assets/images/product-details/shipping_icon3.png"/>
-  </div>
-  <div class="col-9">
-    <h5>ONLINE SUPPORT 24/7</h5>
-    <p>Lorem ipsum dolor sit amet.</p>
-  </div>
-</div>
-</div>
-
-

@@ -2,6 +2,7 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { CartService } from '../cart.service';
+import { LoginService } from '../login.service';
 import { StoreService } from '../store.service';
 
 @Component({
@@ -16,14 +17,15 @@ export class ProductsComponent implements OnInit , OnDestroy {
   cart:any;
   cartId:any;
   itemsNumber:any;
-
-
-
-  constructor(private productsApi:StoreService , private rout:Router , private CartApi:CartService) { }
+  userId:any;
+  cartIdd:any;
+ constructor(private productsApi:StoreService , private rout:Router , private CartApi:CartService , private _loginAPI:LoginService) { }
 
 
   ngOnInit(): void {
+    this.userId= this._loginAPI.userData._value.ID
     this.updatingpage();
+
   }
 
   updatingpage(){
@@ -44,11 +46,24 @@ export class ProductsComponent implements OnInit , OnDestroy {
 
     })
 
+    this.CartApi.getcartbyuserid(this.userId).subscribe({
+      next:(res:any)=>{
+        this.cartIdd = res.id;
+      }
+    })
+
+    this.CartApi.createCartSession(this.userId).subscribe({
+      next:(res)=>{
+      },
+      error(err) {
+      },
+    });
 
   }
 errormsg:string="";
+
   addToCart(Prodid:any , Cartid:any){
-    this.CartApi.addToCart(Prodid,Cartid).subscribe(res=>{
+    this.CartApi.addToCart(Prodid,this.cartIdd).subscribe(res=>{
       this.updatingpage()
       this.CartApi.newEvent("s");
     },err=>{

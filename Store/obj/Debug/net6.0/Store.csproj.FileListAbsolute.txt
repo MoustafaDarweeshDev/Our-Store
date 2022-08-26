@@ -1089,8 +1089,6 @@ T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\refint\Store.dll
 T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.pdb
 T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.genruntimeconfig.cache
 T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\ref\Store.dll
-T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\4d3f731c-72f1-4029-9685-463f2e8919bc_222223783_409036087216780_7762268027191809836_n.png
-T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\6cefe0e8-6c86-4c16-ae15-1866692f2f64_222223783_409036087216780_7762268027191809836_n.png
 T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.RazorAssemblyInfo.cache
 T:\_CODE___\Projects\Store\Store\obj\Debug\net6.0\Store.RazorAssemblyInfo.cs
 D:\Projects\Our Store\Our-Store\Store\bin\Debug\net6.0\appsettings.Development.json
@@ -1664,3 +1662,8 @@ F:\Web.Work\Route\Angular\Our-Store\Store\bin\Debug\net6.0\Assets\Images\64b43a8
 F:\Web.Work\Route\Angular\Our-Store\Store\bin\Debug\net6.0\Assets\Images\6562f554-a845-46f0-8eef-6d8a8119a90f_000000.jpg
 F:\Web.Work\Route\Angular\Our-Store\Store\bin\Debug\net6.0\Assets\Images\aedd1231-1c26-43bd-9966-81a172af475e_000000.jpg
 F:\Web.Work\Route\Angular\Our-Store\Store\bin\Debug\net6.0\Assets\Images\d767c1f9-59b3-4125-a9d6-9eb22b375224_000000.jpg
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\6a81461d-bd49-41f2-a5a9-fe2bf0e5e16d_Phones.jpg
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\452bf573-f7c7-4542-8e17-62f94b280acc_laptops.jpg
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\951de5a9-4e29-4c22-843f-69b9352d61c3_Phones.jpg
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\9b7b0a41-42f6-463f-abd1-363711171c2c_Inro.jpg
+T:\_CODE___\Projects\Store\Store\bin\Debug\net6.0\Assets\Images\d47e43eb-e03b-4c39-95d3-76e162c0b43c_laptops.jpg

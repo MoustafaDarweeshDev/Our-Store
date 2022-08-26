@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CartService } from '../cart.service';
 
 @Component({
@@ -11,28 +11,28 @@ export class ShoppingCartComponent implements OnInit {
   userId:any;
   items:any;
   cartSession:any;
-  constructor(private cartApi:CartService , private ar:ActivatedRoute) {
+  cartSessionId:any
+  constructor(private cartApi:CartService , private ar:ActivatedRoute , private router:Router) {
    this.userId = this.ar.snapshot.params['id'];
   }
 
   ngOnInit(): void {
     this.getItems()
+
   }
 
   getItems(){
     this.cartApi.getCartItems(this.userId).subscribe(res=>{
         this.items = res;
-        console.log(res);
 
     } , err=>{
-        console.log(err);
 
     });
 
 
-    this.cartApi.getcartbyuserid(this.userId).subscribe(res=>{
+      this.cartApi.getcartbyuserid(this.userId).subscribe((res:any)=>{
       this.cartSession=res
-      console.log(res);
+      this.cartSessionId = res.id;
 
   } , err=>{
       console.log(err);
@@ -43,9 +43,8 @@ export class ShoppingCartComponent implements OnInit {
   plus(id:any){
     this.cartApi.increase(id).subscribe(res=>{
       console.log(res);
-      this.ngOnInit()
       console.log(" yes");
-
+      this.getItems()
 
     },err=>{
       console.log(err);
@@ -80,5 +79,8 @@ export class ShoppingCartComponent implements OnInit {
       this.getItems()
 
     })
+  }
+  checkOut(){
+    this.router.navigate(['check/'+ this.cartSessionId])
   }
 }

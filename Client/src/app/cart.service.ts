@@ -9,6 +9,7 @@ import { Subject } from 'rxjs';
 export class CartService {
 
   #BaseUrl = 'https://localhost:7296/api/Cart';
+  #sessionURl = 'https://localhost:7296/api/CartSessions';
 
   constructor(private cartApi:HttpClient) {
 
@@ -38,6 +39,13 @@ export class CartService {
     return this.cartApi.get(this.#BaseUrl+"/user/"+id)
   }
 
+  createCartSession(id:any ){
+  return this.cartApi.post("https://localhost:7296/api/CartSessions/userId?userId="+id ,null)
+  }
+
+  getcartsession(id:any){
+    return  this.cartApi.get(this.#sessionURl+"/" + id)
+  }
 
   // makeing event for the cart iccon
   private _subject=new Subject<any>();
@@ -49,4 +57,6 @@ export class CartService {
   get events$ () {
     return this._subject.asObservable();
   }
+
+
 }

@@ -44,13 +44,19 @@ namespace Store.Controllers
 
             foreach (CartItem item in cartItems)
             {
-                item.UnitPrice = item.Product.Price;
+                if(item.Product.Discount > 0) { 
                 item.Discount = item.Product.Discount;
                 item._DiscountAmount = ((item.UnitPrice * item.Discount) / 100)*item.Quantity;
+                }
+                else
+                {
+                    item.Discount = 0;
+                    item._DiscountAmount = ((item.UnitPrice) / 100) * item.Quantity;
+
+                }
+
+                item.UnitPrice = item.Product.Price;
                 item.Total = (item.UnitPrice * item.Quantity) - item._DiscountAmount;
-
-
-
                 CartDiscount += item._DiscountAmount;
                 amount += item.UnitPrice * item.Quantity;
                 NumberOfItems++;
@@ -60,12 +66,14 @@ namespace Store.Controllers
                 //else
                 //    userCart.TotalDiscount = amount - CartDiscount;
                 _context.Entry(item).State = EntityState.Modified;
+                 await updateTotal(item);
             }
 
             userCart.ItemsCount = NumberOfItems;
             userCart.Amount = amount;
             userCart.TotalDiscount = CartDiscount;
             userCart.Total = userCart.Amount - userCart.TotalDiscount;
+
             await _context.SaveChangesAsync();
             _context.Entry(userCart).State = EntityState.Modified;
 
@@ -86,7 +94,6 @@ namespace Store.Controllers
         }
 
         [HttpGet("{prodId}/{CartId}")]
-        
         public async Task<IActionResult> AddToCart(int prodId ,int  CartId)
         {
             var product = await _context.Products.FindAsync(prodId);

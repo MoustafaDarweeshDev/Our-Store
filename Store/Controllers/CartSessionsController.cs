@@ -75,13 +75,35 @@ namespace Store.Controllers
 
         // POST: api/CartSessions
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<CartSession>> PostCartSession(CartSession cartSession)
+        [HttpPost("userId")]
+        public async Task<ActionResult<CartSession>> PostCartSession(int userId)
         {
-            _context.CartSessions.Add(cartSession);
-            await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetCartSession", new { id = cartSession.Id }, cartSession);
+            var x = await _context.CartSessions.Where(c => c.UserId == userId
+                  && c.Ended_At.ToString() ==null)
+                    .ToListAsync();
+
+            if (x.Count() > 0)
+            {
+                return Ok("There are an Existing Cart");
+            }
+            else
+            {
+
+                CartSession cartSession = new CartSession()
+                {
+                    UserId = userId,
+                    Created_At = DateTime.Now,
+                };
+                _context.CartSessions.Add(cartSession);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction("GetCartSession", new { id = cartSession.Id }, cartSession);
+            }
+            //cartSession.UserId = userId;
+            //_context.CartSessions.Add(cartSession);
+            //await _context.SaveChangesAsync();
+
+            //return CreatedAtAction("GetCartSession", new { id = cartSession.Id }, cartSession);
         }
 
         // DELETE: api/CartSessions/5
